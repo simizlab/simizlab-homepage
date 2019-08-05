@@ -1,12 +1,12 @@
 baseurl = "https://example.org"
-title = "Universal"
+title = "清水昭伸　研究室"
 theme = "hugo-universal-theme"
-# themesDir = "../.."
+
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -24,48 +24,60 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    identifier="blog"
-    name = "Blog"
-    url  = "/blog/"
+    identifier="research"
+    name = "Research"
+    url  = "/research/"
     weight = 2
 
 [[menu.main]]
-    identifier = "faq"
-    name = "FAQ"
-    url  = "/faq/"
+    identifier = "members"
+    name = "Members"
+    url  = "/members/"
     weight = 3
 
 [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url  = "/contact/"
+    identifier = "publications"
+    name = "Publications"
+    url  = "/publications/"
     weight = 4
+
+[[menu.main]]
+    identifier="equipments"
+    name = "Equipments"
+    url  = "/equipments/"
+    weight = 5
+
+[[menu.main]]
+    identifier="access"
+    name = "Access"
+    url  = "/access/"
+    weight = 6
 
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/simizlab"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
     name = "Email"
     url = "mailto:your@email.com"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
+
+# [[menu.topbar]]
+#     weight = 2
+#     name = "Facebook"
+#     url = "http://facebook.com"
+#     pre = "<i class='fa fa-2x fa-facebook'></i>"
+#
+# [[menu.topbar]]
+#     weight = 3
+#     name = "Twitter"
+#     url = "http://twitter.com"
+#     pre = "<i class='fa fa-2x fa-twitter'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
@@ -81,7 +93,7 @@ paginate = 10
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "pink"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -124,7 +136,7 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
@@ -166,7 +178,7 @@ paginate = 10
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
