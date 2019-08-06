@@ -1,0 +1,7 @@
+weight: 3
+title: "臓器自動認識"
+description: >
+  <ul class="list-style-none">
+    <li>大きな疾病領域を含んでいたり，変形が著しい臓器を認識する画像処理アルゴリズムの研究</li>
+  </ul>
+image: "img/carousel/automated-recognition.png"

@@ -1,0 +1,8 @@
+weight: 4
+title: "疾病自動認識"
+description: >
+  <ul class="list-style-none">
+    <li>CT像上の肝腫瘍 多数の識別器の結果を統合する</li>
+    <li>アンサンブル学習により肝腫瘍を正確に認識</li>
+  </ul>
+image: "img/carousel/segmentation-of-liver-metastasis.png"
