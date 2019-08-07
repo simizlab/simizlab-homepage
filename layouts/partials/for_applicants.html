@@ -1,0 +1,19 @@
+{{ if isset .Site.Params "for_applicants" }}
+{{ if .Site.Params.for_applicants.enable }}
+<section class="bar background-white no-mb">
+    <div class="container">
+        <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.for_applicants.title }}</h2>
+                </div>
+    
+                <p class="lead">
+                    {{ .Site.Params.for_applicants.subtitle | markdownify }}
+                </p>
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
