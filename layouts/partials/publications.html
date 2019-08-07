@@ -19,11 +19,12 @@
       </div>
 
       <!-- For year search -->
-      <!-- Not work! -->
+      <!-- Not to work! Future work -->
       <!-- <div class="form-group row">
         <label for="inputYear" class="col-sm-2 col-form-label">{{ i18n "pub_year" }}</label>
         <div class="col-sm-10">
           <select id="selectedIsbn" name="selectedIsbn">
+            <option value="0">All</option>
             {{- $search_year_min := (.Site.Params.publications.search_year_min | default 2000) }}
             {{- $search_year_max := (.Site.Params.publications.search_year_max | default 2018) }}
             {{ range $i, $sequence := (seq $search_year_max -1 $search_year_min) }}
@@ -37,9 +38,6 @@
 
     <div class="form-group row">
       <div class="col-sm-offset-2 col-sm-10">
-        <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
         <ol id="grid" class="pub__list">
           {{ $csvfile := "/static/publications/pub.csv" }}
           {{ range $i, $r := getCSV "," $csvfile }}
@@ -65,7 +63,7 @@
             {{ $pages }},
             </span>
             <span>
-              {{ index $year }}
+              {{ $year }}
             </span>
             <br>
             <a href="http://dx.doi.org/{{ $doi }}" target="_blank" class="download">{{ $doi }}</a>
@@ -76,8 +74,7 @@
 
         </ol>
 
-        <script src="{{ .Site.BaseURL }}js/shuffle.js"></script>
-        <script src="{{ .Site.BaseURL }}js/pub_search.js"></script>
+        
       </div>
     </div>
 
