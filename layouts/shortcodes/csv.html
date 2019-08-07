@@ -1,0 +1,19 @@
+<table class="table table-sm table-striped">
+  {{ with .Get "src" }}
+    {{ range $i, $r := getCSV "," . }}
+      {{ if eq $i 0}}
+        <thead><tr class="table-success">
+        {{range $r}}
+          <th> {{ . }} </th>
+        {{ end }}
+        </tr></thead>
+      {{ else }}
+        <tr>
+        {{range $r}}
+          <td> {{ . }} </td>
+        {{ end }}
+        </tr>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</table>
