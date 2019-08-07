@@ -51,28 +51,13 @@ paginate = 10
       name = "アクセス"
       url  = "/access/"
       weight = 6
-    [[languages.ja.menu.main]]
-      identifier = "faq"
-      name = "FAQ"
-      url  = "/faq/"
-      weight = 7
-    [[languages.ja.menu.main]]
-      identifier = "contact"
-      name = "Contact"
-      url  = "/contact/"
-      weight = 8
-    [[languages.ja.menu.main]]
-      identifier = "blog"
-      name = "ブログ"
-      url  = "/blog/"
-      weight = 9
     [[languages.ja.menu.topbar]]
         weight = 1
         name = "GitHub"
         url = "https://github.com/simizlab"
         pre = "<i class='fa fa-2x fa-github'></i>"
     [[languages.ja.menu.topbar]]
-        weight = 4
+        weight = 2
         name = "Email"
         url = "mailto:your@email.com"
         pre = "<i class='fa fa-2x fa-envelope'></i>"
@@ -97,6 +82,19 @@ paginate = 10
         <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
         </p>
         """
+  [languages.ja.params.for_applicants]
+    enable = true
+    title = "研究室配属を希望する方へ"
+    subtitle = """清水（昭）研究室では多数の大学，公的研究機関，企業と協力して研究を進めています．
+                  2016年度は，東京大学，京都大学，九州大学，名古屋工業大学，埼玉医科大学，電気通信大学，
+                  神奈川歯科大学などの12大学，理化学研究所など2つの公的機関，Hamburg大学（ドイツ），
+                  Auckland大学（ニュージーランド），Children's National Health System（アメリカ）などの
+                  海外の大学や研究機関，その他に複数の国内の企業と連携をしながら研究を進めています．
+                  皆さんも研究室に参加して，学外の研究機関と連携をしながら一緒に研究をしませんか？
+                  研究では，プログラミング，線形代数，解析，確率統計，信号処理などを利用します．
+                  医用画像解析を用いた医工連携に興味がある人は研究室見学に来てください．
+                  """
+
 
   # English
   [languages.en]
@@ -167,11 +165,16 @@ paginate = 10
           <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
           </p>
           """
+    [languages.en.params.for_applicants]
+      enable = true
+      title = "From our blog"
+      subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
 
 [params]
     viewMorePostLink = "/blog/"
     author = "Katsuki Tozawa & Atsushi Saito"
-    copyright = "Copyright (c) 2019, Simizu Lab. all rights reserved."
+    copyright = "Copyright (c) 2019, Shimizu Lab. all rights reserved."
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
@@ -243,12 +246,12 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
+    categories = false
+    tags = false
     search = true
