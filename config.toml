@@ -63,7 +63,7 @@ paginate = 10
       weight = 8
     [[languages.ja.menu.main]]
       identifier = "blog"
-      name = "Blog"
+      name = "ブログ"
       url  = "/blog/"
       weight = 9
     [[languages.ja.menu.topbar]]

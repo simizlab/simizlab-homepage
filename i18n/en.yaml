@@ -69,3 +69,9 @@
 
 - id: publishedOn
   translation: "on"
+
+- id: pub_title
+  translation: "Title"
+
+- id: pub_author
+  translation: "Author"
