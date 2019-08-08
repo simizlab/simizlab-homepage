@@ -44,3 +44,15 @@ ol.pub__list li:hover{
 	background-color: #f8f8f8;
 }
 /* From saito3 end*/
+
+/* Language switch menu */
+/* https://github.com/moodlebox/hugo-moodlebox-theme/blob/master/assets/css/moodlebox.css#L3690 */
+#language-switch a.dropdown-toggle {
+  font-size: 135%;
+}
+
+#language-switch ul.dropdown-menu {
+  min-width: auto;
+  left: auto;
+  right: 0;
+}
