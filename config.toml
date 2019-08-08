@@ -53,6 +53,13 @@ paginate = 10
       name = "アクセス"
       url  = "/access/"
       weight = 6
+    [[languages.ja.menu.main]]
+      identifier="links"
+      name = "リンク"
+      url  = "/links/"
+      weight = 7
+
+    # Top bar configs
     [[languages.ja.menu.topbar]]
         weight = 1
         name = "GitHub"
@@ -63,6 +70,7 @@ paginate = 10
         name = "Email"
         url = "mailto:your@email.com"
         pre = "<i class='fa fa-2x fa-envelope'></i>"
+  
   [languages.ja.params]
     defaultKeywords = ["清水昭伸", "医用画像処理", "画像工学", "パターン認識", "医用工学", "しみずあきのぶ"]
     defaultDescription = "清水昭伸研究室のキーワード"
@@ -76,7 +84,7 @@ paginate = 10
         <br>
       </p>
       """
-      # Enable or disable top bar with social icons
+  # Enable or disable top bar with social icons
   [languages.ja.params.topbar]
       enable = true
       text = """<p class="hidden-sm hidden-xs">東京農工大学　清水昭伸研究室</p>
@@ -178,7 +186,7 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "Katsuki Tozawa & Atsushi Saito"
-    copyright = "Copyright (c) 2019, Shimizu Lab. all rights reserved."
+    copyright = "Copyright (c) 2019, Shimizu Lab., Tokyo University of Agriculture and Technology, All rights reserved."
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
