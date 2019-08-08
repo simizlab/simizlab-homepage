@@ -29,35 +29,40 @@ paginate = 10
       url  = "/"
       weight = 1
     [[languages.ja.menu.main]]
+      identifier="topics"
+      name = "トピックス"
+      url  = "/topics/"
+      weight = 2
+    [[languages.ja.menu.main]]
       identifier="research"
       name = "研究内容"
       url  = "/research/"
-      weight = 2
+      weight = 3
     [[languages.ja.menu.main]]
       identifier="members"
       name = "メンバー"
       url  = "/members/"
-      weight = 3
+      weight = 4
     [[languages.ja.menu.main]]
       identifier = "publications"
       name = "研究業績"
       url  = "/publications/"
-      weight = 4
+      weight = 5
     [[languages.ja.menu.main]]
       identifier="equipments"
       name = "研究設備"
       url  = "/equipments/"
-      weight = 5
+      weight = 6
     [[languages.ja.menu.main]]
       identifier="access"
       name = "アクセス"
       url  = "/access/"
-      weight = 6
+      weight = 7
     [[languages.ja.menu.main]]
       identifier="links"
       name = "リンク"
       url  = "/links/"
-      weight = 7
+      weight = 8
 
     # Top bar configs
     [[languages.ja.menu.topbar]]
@@ -84,26 +89,31 @@ paginate = 10
         <br>
       </p>
       """
-  # Enable or disable top bar with social icons
-  [languages.ja.params.topbar]
+    # Enable or disable top bar with social icons
+    [languages.ja.params.topbar]
+        enable = true
+        text = """<p class="hidden-sm hidden-xs">東京農工大学　清水昭伸研究室</p>
+          <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+          <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+          </p>
+          """
+    [languages.ja.params.for_applicants]
       enable = true
-      text = """<p class="hidden-sm hidden-xs">東京農工大学　清水昭伸研究室</p>
-        <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-        <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-        </p>
-        """
-  [languages.ja.params.for_applicants]
-    enable = true
-    title = "研究室配属を希望する方へ"
-    subtitle = """清水（昭）研究室では多数の大学，公的研究機関，企業と協力して研究を進めています．
-                  2016年度は，東京大学，京都大学，九州大学，名古屋工業大学，埼玉医科大学，電気通信大学，
-                  神奈川歯科大学などの12大学，理化学研究所など2つの公的機関，Hamburg大学（ドイツ），
-                  Auckland大学（ニュージーランド），Children's National Health System（アメリカ）などの
-                  海外の大学や研究機関，その他に複数の国内の企業と連携をしながら研究を進めています．
-                  皆さんも研究室に参加して，学外の研究機関と連携をしながら一緒に研究をしませんか？
-                  研究では，プログラミング，線形代数，解析，確率統計，信号処理などを利用します．
-                  医用画像解析を用いた医工連携に興味がある人は研究室見学に来てください．
-                  """
+      title = "研究室配属を希望する方へ"
+      subtitle = """清水（昭）研究室では多数の大学，公的研究機関，企業と協力して研究を進めています．
+                    2016年度は，東京大学，京都大学，九州大学，名古屋工業大学，埼玉医科大学，電気通信大学，
+                    神奈川歯科大学などの12大学，理化学研究所など2つの公的機関，Hamburg大学（ドイツ），
+                    Auckland大学（ニュージーランド），Children's National Health System（アメリカ）などの
+                    海外の大学や研究機関，その他に複数の国内の企業と連携をしながら研究を進めています．
+                    皆さんも研究室に参加して，学外の研究機関と連携をしながら一緒に研究をしませんか？
+                    研究では，プログラミング，線形代数，解析，確率統計，信号処理などを利用します．
+                    医用画像解析を用いた医工連携に興味がある人は研究室見学に来てください．
+                    """
+    [languages.ja.params.recent_posts]
+      enable = true
+      title = "トピックス"
+      subtitle = "最近の研究活動報告"
+
 
 
   # English
@@ -117,46 +127,51 @@ paginate = 10
         name = "Home"
         url  = "/"
         weight = 1
+      [[languages.ja.menu.main]]
+        identifier="topics"
+        name = "Topics"
+        url  = "/topics/"
+        weight = 2
       [[languages.en.menu.main]]
         identifier="research"
         name = "Research"
         url  = "/research/"
-        weight = 2
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "members"
         name = "Members"
         url  = "/members/"
-        weight = 3
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "publications"
         name = "Publications"
         url  = "/publications/"
-        weight = 4
+        weight = 5
       [[languages.en.menu.main]]
         identifier="equipments"
         name = "Equipments"
         url  = "/equipments/"
-        weight = 5
+        weight = 6
       [[languages.en.menu.main]]
         identifier="access"
         name = "Access"
         url  = "/access/"
-        weight = 6
+        weight = 7
       [[languages.en.menu.main]]
         identifier = "faq"
         name = "FAQ"
         url  = "/faq/"
-        weight = 7
+        weight = 8
       [[languages.en.menu.main]]
         identifier = "contact"
         name = "Contact"
         url  = "/contact/"
-        weight = 8
+        weight = 9
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "Blog"
         url  = "/blog/"
-        weight = 9
+        weight = 10
       [[languages.en.menu.topbar]]
         weight = 1
         name = "GitHub"
@@ -184,7 +199,7 @@ paginate = 10
 
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/topics/"
     author = "Katsuki Tozawa & Atsushi Saito"
     copyright = "Copyright (c) 2019, Shimizu Lab., Tokyo University of Agriculture and Technology, All rights reserved."
     # Format dates with Go's time formatting
@@ -219,7 +234,7 @@ paginate = 10
     contact_form_ajax = false
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/topics/:year/:month/:day/:filename/"
 
 [params.carousel]
     enable = true
@@ -257,10 +272,6 @@ paginate = 10
     title = "Our Clients"
     subtitle = ""
 
-[params.recent_posts]
-    enable = false
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
