@@ -1,5 +1,5 @@
 weight: 1
-title: "清水（昭）研究室"
-description: 
+title: "Shimizu Lab."
+description:
   "<p>画像工学，機械学習，<br>パターン認識，ビックデータ解析技術などの<br>電子情報工学の最先端技術を駆使した<br>医用工学の研究</p>"
-image: "img/carousel/group-photo.png"
+image: "/img/carousel/group-photo.png"

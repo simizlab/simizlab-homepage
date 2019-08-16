@@ -1,8 +1,8 @@
 weight: 5
-title: "死後人体の計算解剖学と大変形臓器認識処理"
+title: "死後人体における\n\n計算解剖学"
 description: >
   <ul class="list-style-none">
      <li>死体用のモデルを用いて画像から</li>
      <li>臓器認識を行う処理についての研究</li>
    </ul>
-image: "img/carousel/postmortem-computational-anatomy.png"
+image: "/img/carousel/postmortem-computational-anatomy.png"

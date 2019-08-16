@@ -75,7 +75,7 @@ paginate = 10
         name = "Email"
         url = "mailto:your@email.com"
         pre = "<i class='fa fa-2x fa-envelope'></i>"
-  
+
   [languages.ja.params]
     defaultKeywords = ["清水昭伸", "医用画像処理", "画像工学", "パターン認識", "医用工学", "しみずあきのぶ"]
     defaultDescription = "清水昭伸研究室のキーワード"
@@ -113,6 +113,11 @@ paginate = 10
       enable = true
       title = "トピックス"
       subtitle = "最近の研究活動報告"
+    [languages.ja.params.carousel]
+        enable = true
+        # All carousel items are defined in their own files. You can find example items
+        # at 'exampleSite/data/carousel'.
+        # For more informtion take a look at the README.
 
 
 
@@ -196,7 +201,11 @@ paginate = 10
       enable = true
       title = "From our blog"
       subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-
+    [languages.en.params.carousel]
+        enable = true
+        # All carousel items are defined in their own files. You can find example items
+        # at 'exampleSite/data/carousel'.
+        # For more informtion take a look at the README.
 
 [params]
     viewMorePostLink = "/topics/"
@@ -236,11 +245,11 @@ paginate = 10
 [Permalinks]
     blog = "/topics/:year/:month/:day/:filename/"
 
-[params.carousel]
-    enable = true
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
+# [params.carousel]
+#     enable = true
+#     # All carousel items are defined in their own files. You can find example items
+#     # at 'exampleSite/data/carousel'.
+#     # For more informtion take a look at the README.
 
 [params.features]
     enable = false
