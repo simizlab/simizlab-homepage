@@ -1,7 +1,7 @@
 weight: 3
-title: "臓器自動認識"
+title: "Automated organ recognition"
 description: >
   <ul class="list-style-none">
-    <li>大きな疾病領域を含んでいたり，変形が著しい臓器を認識する画像処理アルゴリズムの研究</li>
+    <li>Research on image processing algorithms for recognizing organs that contain large disease areas or have significant deformation</li>
   </ul>
 image: "/img/carousel/automated-recognition.png"

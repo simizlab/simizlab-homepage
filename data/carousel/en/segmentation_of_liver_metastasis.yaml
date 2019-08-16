@@ -1,8 +1,7 @@
 weight: 4
-title: "疾病自動認識"
+title: "Automated recognition of pathological lesions"
 description: >
   <ul class="list-style-none">
-    <li>CT像上の肝腫瘍 多数の識別器の結果を統合する</li>
-    <li>アンサンブル学習により肝腫瘍を正確に認識</li>
+    <li>Liver tumor on CT image Accurate recognition of liver tumor by ensemble learning that integrates the results of multiple discriminators</li>
   </ul>
 image: "/img/carousel/segmentation-of-liver-metastasis.png"

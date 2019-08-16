@@ -1,9 +1,7 @@
 weight: 2
-title: "計算解剖学"
+title: "Computational anatomy"
 description: >
   <ul class="list-style-none">
-    <li>人体構造の形状や画像化後の濃度値などに関する</li>
-    <li>統計的変動を数理統計的に記述するために</li>
-    <li>生まれた新しい学術分野</li>
+    <li>A new academic field that was born to mathematically describe statistical fluctuations related to the shape of the human body structure and density values after imaging.</li>
   </ul>
 image: "/img/carousel/computational-anatomy.png"
