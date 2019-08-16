@@ -1,79 +1,84 @@
 +++
-title = "研究内容"
+title = "Research"
 date = "2014-04-09"
-description = "研究内容"
-keywords = ["研究内容", "研究紹介"]
+description = "Research"
+keywords = ["Research"]
 +++
 
-> ## 研究ミッション
+> ## Mission
 
-画像工学，機械学習，パターン認識，ビックデータ解析技術などの電子情報工学の最先端技術を駆使した医用工学の研究を行っています．
+We're conducting research on medical engineering using the latest technologies in electronic information engineering such as image engineering, machine learning, pattern recognition, and big data analysis technology.
 
-> ## 背景
+> ## Background
 
-画像撮影装置の進歩により，人体内部を1mm以下の解像度で3次元的に画像化できるようになりました（下図参照）．その結果，極めて早期のがんなども発見できるようになりました．しかし，数百枚から，多いときには千枚を超える画像を肉眼のみで検査することは，医師に大きな負担を強いています．そこで，コンピュータを使って画像を自動で解析して，臓器やその内部の異常を認識し，医師を支援する画像処理プログラムの開発が求められています． また，最近は，人体内の臓器の形状や濃度値などの変動を数理統計的に記述する計算解剖学という新しい学術分野が生まれました．この分野の成果は，画像から臓器や疾病を自動認識する処理などで使われ，従来よりも優れた性能を示すことが確認されています． 以下では，計算解剖学に関わる研究成果を示した後で，その成果を応用した臓器認識や腫瘍認識などの画像処理の研究例について紹介します．また，最近は，胎児や，生体のみでなく死亡後の人体を対象とした画像解析にも注目が集まっており，本研究室でも取り組んでいますが，これらの研究例についても紹介します．
+Advances in image capture devices have made it possible to image the inside of the human body in 3D with a resolution of 1mm or less. As a result, it became possible to detect extremely early cancers. However, examining the image with only the naked eye from hundreds or more than 1,000 is a great burden on doctors. Therefore, the development of an image processing program that supports doctors by automatically analyzing images using computers and recognizing abnormalities in organs and their interiors is required. Recently, a new academic field called computational anatomy has been born that mathematically and statistically describes changes in the shape and concentration of organs in the human body. The results in this field have been confirmed to show better performance than before, as it is used in processing that automatically recognizes organs and diseases from images. In the following, after showing the results of research related to computational anatomy, we will introduce examples of research on image processing such as organ recognition and tumor recognition using the results. Recently, attention has been focused on image analysis not only for the fetus and the living body but also for the human body after death, and we are working on this, but we will also introduce examples of these studies.
 <!-- ![slide1](/img/research/slide1_E.png) -->
 <div align="center"><img src="/img/research/slide1_E.png"  width=50% title="slide1"></div>
 
 > ## 研究例
 
-### 1. 基盤
+### 1. Fundamental technologies
 
-#### 1-1 計算解剖学
-計算解剖学は，人体構造の形状や画像化後の濃度値などに関する統計的変動を数理統計的に記述するために生まれた新しい学術分野です．わが国では，2009～2013年に文部科学省の科学研究費補助金の新学術領域研究として集中的に研究が進められました計算解剖学．以下の図は本研究室で作成した体幹部臓器形状の統計的変動を記述した統計的形状モデル（Statistical Shape Model; SSM）です．最近はこの分野の多元化（時間軸，空間軸，機能軸，疾病軸への拡張）も進められています
+#### 1-1 Computational anatomy
+We have studied on statistical shape models (SSMs) of human trunk that describe statistical shape variation of organs. Following figure shows an example of SSMs of several organs in a human trunk, in which not only statistical shape variations of individual organs but also statistical correlations between neighboring organs were modeled.
 <!-- ![slide2](/img/research/slide2_E.jpg "Saito et al. 2013") -->
 <div align="center"><img src="/img/research/slide2_E.jpg"  width=50% title="slide2"></div>
 
-### 2. 応用
+We are now extending such statistiacl model so as to describe statistical variation along time axis, resolution axis, functional axis and pathological axis in [multi-disciplinary computational anatomy project](http://wiki.tagen-compana.org/mediawiki/index.php/Main_Page)．
 
-#### 2-1 臓器自動認識
-##### １）肺，肝臓，膵臓などの単一臓器認識
-正常な臓器や，平均的な形状の臓器の認識問題はこれまでにほとんど解決されてきたことから，本研究室では，大きな疾病領域を含んでいたり，変形が著しい臓器を認識する画像処理アルゴリズムの研究を進めています．以下は，統計的形状モデルを組み込むことで，胸壁に疾病が付着していても正しく肺野が認識できる認識アルゴリズムを開発した例です．
+### 2. Applications
+
+#### 2-1 Automated organ recognition
+##### １）Single organ recognition (lung, liver, pancreas...)
+Segmentation problem of organ with average shapes and without pathology has been solved. We focus on segmentation problem of organ with atypical shape and/or pathological lesion.
+
+Segmentation with SSM is effective approach to prevent unnatural shape in segmentation of organ with pathological lesion. This figure shows graph cuts with multiple shapes, in which it successfully recognizes lung area with pathological lesion.
+
 <!-- ![slide3](/img/research/slide3_E.jpg "Nakagomi et al., 2013") -->
 <div align="center"><img src="/img/research/slide3_E.jpg"  width=50% title="slide3"></div>
 
-大きな疾病が表現できる特別な工夫を含むモデルを用いることで，大疾病を含む臓器の安定した認識が可能になりました．
+We proposed a sparse modeling based approach with lesion basis for segmentation of an organ with an atypical shape and large pathological lesions.
 <!-- ![slide4](/img/research/slide4_E.jpg "Umetsu et al., 2014") -->
 <div align="center"><img src="/img/research/slide4_E.jpg"  width=50% title="slide4"></div>
 
-統計的形状モデルの中には，事前に測定した特徴を条件とする条件付きの統計的形状モデルがあります．本研究室では，この条件付統計モデルをさらに改良し，平均から大きく外れた形状の肝臓を認識することに成功しました（下図参照）．
+A relaxed conditional SSM was presented to manage errors in conditions that involve an irregular shape of an organ and/or lesions. A sequentially graph cuts based segmentation algorithm with the relaxed conditional SSM was presented to show the effectiveness of such an SSM in segmentation.
 <!-- ![slide5](/img/research/slide5_E.jpg "Tomoshige et al., 2014") -->
 <div align="center"><img src="/img/research/slide5_E.jpg"  width=50% title="slide5"></div>
 
-##### ２）複数臓器同時認識
-人体内にある複数の臓器は互いに一定の関係を持って存在します．その関係を使って臓器を認識することで，高精度な認識結果を得ることができます．以下の図は，互いの関係を考慮可能な処理を用いた認識結果です．
+##### ２）Multi-organ segmentation
+We proposed atlas guided expectation and maximization (EM) algorithm for statistical parameter estimation and maximum a posteriori (MAP) segmentation followed by multiple level sets in which overlap between neighboring level sets are minimized.
 <!-- ![slide6](/img/research/slide6_E.jpg "Shimizu et al., 2007") -->
 <div align="center"><img src="/img/research/slide6_E.jpg"  width=50% title="slide6"></div>
 
-#### 2-2 疾病自動認識
-##### １）CT像上の肝腫瘍
-多数の識別器の結果を統合するアンサンブル学習により肝腫瘍を正確に認識できるようになりました．このアルゴリズムは，2008年の国際コンペ＠MICCAIで最も優れた性能を示しました．
+#### 2-2 Automated recognition of pathological lesions
+##### １）Liver tumors in CT volume
+We proposed an ensemble learning based liver tumor segmentation algorithm which was proved to be the best in the competition in conjunction with MICCAI2008.
 <!-- ![slide7](/img/research/slide7_E.jpg "Narihira et al., 2013") -->
 <div align="center"><img src="/img/research/slide7_E.jpg"  width=50% title="slide7"></div>
 
-##### ２）MR像上の脳動脈瘤
-MR像から血管を自動認識し，その認識結果に対して形状の特徴量を多数計測することにより，脳動脈瘤を自動検出できるようになりました．この研究は東京大学と連携して進めています．
+##### ２）Cerebral aneurysm in MR volume
+We proposed an algorithm for cerebral aneurysm detection in MR volume. This is a collaborative research with the Univ. of Tokyo.
 
-##### ３）シンチグラム上の転移
-シンチグラム検査は，がんの転移などを見つけるために有効な方法です．この研究は，大阪市立大学と連携をして進めています．
+##### ３）Abnormal accumulation in a bone scintigram
+We have studied on automated abnormal accumulation detection in a bone scintigram by collaboration with Osaka city university.
 
-#### 2-3 胎児画像処理
-京都大学にある世界でも非常に貴重な胎児データベースを用いて胎児の画像処理を行っています．胎児の画像処理を通じて，胎児の診断支援などに貢献することを目指します．この研究は京都大学と連携をして進めています．
+#### 2-3 Embryo analysis
+We have studied on embryos of Kyoto Collection so as to model evolution process of Homo sapiens (collaboration with Kyoto Univ.)
 
-#### 2-4 死亡時画像診断支援
-死因の究明は死亡時の診断において非常に重要な要素です．解剖ができない例を中心に，画像を使って死因を明らかにする検討が進められています．日本ではオートプシー・イメージング（Autopsy imaging; Ai）と呼ばれる分野です．本研究室では，画像処理を使ってAiを支援する研究を進めています．
+#### 2-4 Postmortem analysis
+Recently, Autopsy imaging in Japan, Virtopy in Europe have attracted many researchers, in which cause of death are estimated based on postmortem CT and/or MR volumes. We have approached this problem from the viewpoint of medical image analysis.
 
-##### １）骨折検出支援
-骨折は死因に関係する重要な所見です．画像処理により骨折を自動検出する処理を開発しました．以下は，肋骨を対象に骨折検出を行った例です．
+##### １）Bone fracture
+Bone fracture is an important sign to identify cause of death. We proposed an algorithm which combines denoising autoencorder with deep convolutional neural network, to detect bone fractures in a postmortem CT volume.
 <!-- ![slide8](/img/research/slide8_E.jpg) -->
 <div align="center"><img src="/img/research/slide8_E.jpg"  width=50% title="slide8"></div>
 
-##### ２）死後人体の計算解剖学と大変形臓器認識処理
-死後の臓器の形状を表現するための計算解剖学についての研究を進めてきました．以下の図は生体と死後の肝臓の平均形状モデルです．呼吸停止による横隔膜の拳上により右葉（向かって左）が上にせり出し，反対側の左葉が下降しているのが分かります．死後の人体の臓器は生体と異なり大きく変形していますが，このような死体用のモデルを用いて画像から認識を行う処理についても研究を進めています．
+##### ２）Postmortem computational anatomy and organ recognition with large deformation
+We have studied on postmortem computational anatomy in which postmortem organ’s shape variation can be modeled by a postmortem SSM. Following slide shows average shapes of in-vivo and postmortem livers, where right lobe of the postmortem liver goes up due to respiratory arrest and left lobe goes down due to dilation of heart. We also developed a segmentation algorithm based on the postmortem SSM.
 <!-- ![slide9](/img/research/slide9_E.jpg "Saito et al., 2013") -->
 <div align="center"><img src="/img/research/slide9_E.jpg"  width=50% title="slide9"></div>
 
-その他，死後画像における濃度値の変化のモデルに関する研究を，東海大学やハンブルグ大学と一緒に行っています．
+In addition, we are developing a temporal model of a postmortem CT volume by collaborating with Tokai Univ. and Hamburg Univ.
 
-##### ３）死因や死後経過時間推定
-死亡後の人体の画像から臓器を認識した後，画像の微細な特徴と測定し，機械学習を応用して死因や死後経過時間を推定します．この研究は山口大学や福井大学と連携をしながら進めています．
+##### ３）Cause of death and postmortem time
+Once postmortem organs are recognized, machine learning based algorithm estimates cause of death and postmortem time. This work is collaboration work with Yamaguchi Univ. and Fukui Univ.

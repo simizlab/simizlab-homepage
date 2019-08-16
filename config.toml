@@ -242,6 +242,8 @@ paginate = 10
         # For more informtion take a look at the README.
         title = "Testimonials"
         subtitle = ""
+[author]
+  name = "Atsushi Saito & Katsuki Tozawa"
 
 [params]
     viewMorePostLink = "/topics/"
