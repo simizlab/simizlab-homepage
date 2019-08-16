@@ -14,7 +14,9 @@ googleAnalytics = ""
 paginate = 10
 
 [languages]
+############################################
 # Japanese
+############################################
   [languages.ja]
     title = "東京農工大学　清水昭伸研究室"
     hasCJKLanguage = true
@@ -73,15 +75,15 @@ paginate = 10
     [[languages.ja.menu.topbar]]
         weight = 2
         name = "Email"
-        url = "mailto:your@email.com"
+        url = "mailto:simiz@cc.tuat.ac.jp"
         pre = "<i class='fa fa-2x fa-envelope'></i>"
 
   [languages.ja.params]
     defaultKeywords = ["清水昭伸", "医用画像処理", "画像工学", "パターン認識", "医用工学", "しみずあきのぶ"]
     defaultDescription = "清水昭伸研究室のキーワード"
-    about_us = "<p>東京農工大学　清水（昭）研究室のホームページです．</p>"
+    about_us = "<p>東京農工大学　清水昭伸研究室のホームページです．</p>"
     address = """<p><strong>東京農工大学　清水（昭）研究室</strong>
-        <br>184-0012
+        <br>〒184-0012
         <br>東京都小金井市中町
         <br>2-24-16
         <br>東京農工大学　小金井キャンパス
@@ -118,21 +120,34 @@ paginate = 10
         # All carousel items are defined in their own files. You can find example items
         # at 'exampleSite/data/carousel'.
         # For more informtion take a look at the README.
+    [languages.ja.params.features]
+        enable = false
+        # All features are defined in their own files. You can find example items
+        # at 'exampleSite/data/features'.
+        # For more informtion take a look at the README.
+    [languages.ja.params.testimonials]
+        enable = false
+        # All testimonials are defined in their own files. You can find example items
+        # at 'exampleSite/data/testimonials'.
+        # For more informtion take a look at the README.
+        title = "学生の声"
+        subtitle = ""
 
-
-
-  # English
+############################################
+# English
+############################################
   [languages.en]
     title = "Shimizu Laboratory"
     languageName = "English"
     weight = 2
+
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier="home"
         name = "Home"
         url  = "/"
         weight = 1
-      [[languages.ja.menu.main]]
+      [[languages.en.menu.main]]
         identifier="topics"
         name = "Topics"
         url  = "/topics/"
@@ -163,33 +178,38 @@ paginate = 10
         url  = "/access/"
         weight = 7
       [[languages.en.menu.main]]
-        identifier = "faq"
-        name = "FAQ"
-        url  = "/faq/"
+        identifier="links"
+        name = "LINK"
+        url  = "/links/"
         weight = 8
-      [[languages.en.menu.main]]
-        identifier = "contact"
-        name = "Contact"
-        url  = "/contact/"
-        weight = 9
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url  = "/blog/"
-        weight = 10
+
+      # Top bar configs
       [[languages.en.menu.topbar]]
         weight = 1
         name = "GitHub"
-        url = "https://github.com/devcows/hugo-universal-theme"
+        url = "https://github.com/simizlab"
         pre = "<i class='fa fa-2x fa-github'></i>"
       [[languages.en.menu.topbar]]
         weight = 2
         name = "Email"
-        url = "mailto:your@email.com"
+        url = "mailto:simiz@cc.tuat.ac.jp"
         pre = "<i class='fa fa-2x fa-envelope'></i>"
-    [languages.en.params]
-      about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
 
+    [languages.en.params]
+      defaultKeywords = ["Akinobu Shimizu", "Medical Image Processing", "Image Processing", "Pattern recognition", "Medical engineering"]
+      defaultDescription = "Keyword of Shimizu Laboratory"
+      about_us = "<p>This is Homepage of Shimizu Laboratory, Tokyo University of Agriculture and Technology．</p>"
+      address = """<p><strong>Shimizu Laboratory, Tokyo University of Agriculture and Technology</strong>
+          <br>2-24-16 Naka-cho
+          <br>Koganei-shi
+          <br>Tokyo 184-0012
+          <br>Room 301 and 302 at 3rd floor of "5th bldg. at Koganei Campus"
+          <br>
+          <strong>Japan</strong>
+        </p>
+        """
+
+    # Enable or disable top bar with social icons
     [languages.en.params.topbar]
         enable = true
         text = """<p class="hidden-sm hidden-xs">Shimizu Laboratory</p>
@@ -199,13 +219,29 @@ paginate = 10
           """
     [languages.en.params.for_applicants]
       enable = true
-      title = "From our blog"
-      subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+      title = "For Applicants"
+      subtitle = "We hope Doctor student."
+    [languages.en.params.recent_posts]
+      enable = true
+      title = "Topics"
+      subtitle = "Recent posts"
     [languages.en.params.carousel]
         enable = true
         # All carousel items are defined in their own files. You can find example items
         # at 'exampleSite/data/carousel'.
         # For more informtion take a look at the README.
+    [languages.en.params.features]
+        enable = false
+        # All features are defined in their own files. You can find example items
+        # at 'exampleSite/data/features'.
+        # For more informtion take a look at the README.
+    [languages.en.params.testimonials]
+        enable = false
+        # All testimonials are defined in their own files. You can find example items
+        # at 'exampleSite/data/testimonials'.
+        # For more informtion take a look at the README.
+        title = "Testimonials"
+        subtitle = ""
 
 [params]
     viewMorePostLink = "/topics/"
@@ -217,11 +253,11 @@ paginate = 10
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = ""
+    longitude = ""
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    googleMapsApiKey = ""
 
     #?Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "green"
@@ -239,37 +275,17 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     #?Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "simiz@cc.tuat.ac.jp"
     contact_form_ajax = false
 
 [Permalinks]
     blog = "/topics/:year/:month/:day/:filename/"
 
-# [params.carousel]
-#     enable = true
-#     # All carousel items are defined in their own files. You can find example items
-#     # at 'exampleSite/data/carousel'.
-#     # For more informtion take a look at the README.
-
-[params.features]
-    enable = false
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
-
-[params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
 [params.see_more]
     enable = false
     icon = "fa fa-file-code-o"
     title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    subtitle = ""
     link_url = "#"
     link_text = "Check other homepages"
 
@@ -280,7 +296,6 @@ paginate = 10
     # For more informtion take a look at the README.
     title = "Our Clients"
     subtitle = ""
-
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
