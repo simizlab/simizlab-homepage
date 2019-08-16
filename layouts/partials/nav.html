@@ -4,7 +4,7 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+                <a class="navbar-brand home" href="{{ .Site.LanguagePrefix | absURL | replaceRE "[^/]$" "${0}/" }}"  rel="home">
                     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
                     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
@@ -28,11 +28,11 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}
