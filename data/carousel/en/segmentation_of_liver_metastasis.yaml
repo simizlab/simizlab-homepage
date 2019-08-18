@@ -1,0 +1,7 @@
+weight: 4
+title: "Automated recognition of pathological lesions"
+description: >
+  <ul class="list-style-none">
+    <li>Liver tumor on CT image Accurate recognition of liver tumor by ensemble learning that integrates the results of multiple discriminators</li>
+  </ul>
+image: "/img/carousel/segmentation-of-liver-metastasis.png"

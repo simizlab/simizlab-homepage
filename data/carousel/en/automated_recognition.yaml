@@ -1,0 +1,7 @@
+weight: 3
+title: "Automated organ recognition"
+description: >
+  <ul class="list-style-none">
+    <li>Research on image processing algorithms for recognizing organs that contain large disease areas or have significant deformation</li>
+  </ul>
+image: "/img/carousel/automated-recognition.png"

@@ -1,0 +1,7 @@
+weight: 5
+title: "Postmortem computational anatomy"
+description: >
+  <ul class="list-style-none">
+     <li>Research on processing to recognize organs from images using cadaver model</li>
+   </ul>
+image: "/img/carousel/postmortem-computational-anatomy.png"
