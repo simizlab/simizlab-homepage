@@ -15,7 +15,7 @@ Advances in image capture devices have made it possible to image the inside of t
 <!-- ![slide1](/img/research/slide1_E.png) -->
 <div align="center"><img src="/img/research/slide1_E.png"  width=50% title="slide1"></div>
 
-> ## 研究例
+> ## Research
 
 ### 1. Fundamental technologies
 
