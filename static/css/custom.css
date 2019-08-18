@@ -56,3 +56,64 @@ ol.pub__list li:hover{
   left: auto;
   right: 0;
 }
+
+/* Widgets */
+/* https://github.com/Vimux/Mainroad/blob/master/assets/css/style.css#L1014 */
+.widget {
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.widget:last-child {
+	margin-bottom: 0;
+}
+
+/* .widget__title {
+	position: relative;
+	padding-bottom: 5px;
+	font-size: 16px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	border-bottom: 3px solid #e22d30;
+} */
+
+.widget__item {
+	display: block;
+	padding: 5px 0;
+	border-bottom: 1px dotted #ebebeb;
+}
+
+.widget__item:first-child {
+	padding-top: 0;
+}
+
+/* https://github.com/Vimux/Mainroad/blob/master/assets/css/style.css#L1076 */
+/* Social widget */
+.widget-social__item {
+	padding: 0;
+	border: 0;
+}
+
+.widget-social__link {
+	display: block;
+	margin: 0 0 8px;
+	white-space: normal;
+}
+
+.widget-social__link-icon {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+	fill: #fff;
+}
+
+.widget-social__btn {
+	padding: 5px 10px;
+	font-weight: 700;
+	color: #fff;
+	white-space: pre-line;
+	background: #2a2a2a;
+}
+.widget-social__btn:hover {
+	color: #fff;
+	background: #e22d30;
+}

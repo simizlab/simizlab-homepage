@@ -304,3 +304,8 @@ paginate = 10
     categories = false
     tags = false
     search = true
+    social = true
+
+  [params.widgets.socials.service]
+    github = "simizlab"
+    email = "simiz@cc.tuat.ac.jp"

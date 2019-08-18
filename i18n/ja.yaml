@@ -75,3 +75,8 @@
 
 - id: pub_author
   translation: "著者"
+
+  # Social widget
+  # https://github.com/Vimux/Mainroad/blob/master/i18n/en.yaml#L56
+- id: social_title
+  translation: "Social"
