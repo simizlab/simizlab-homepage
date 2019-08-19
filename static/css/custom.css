@@ -117,3 +117,14 @@ ol.pub__list li:hover{
 	color: #fff;
 	background: #e22d30;
 }
+
+/* https://github.com/Vimux/Mainroad/blob/2dd3780f30a4c7d253609e7c2821ec87efea64e3/assets/css/style.css#L623 */
+.post__thumbnail {
+	max-width: 1030px;
+	margin: 0 0 20px;
+	margin-bottom: 0 0 1.25rem;
+}
+
+.post__thumbnail img {
+	width: 50%;
+}
