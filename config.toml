@@ -242,6 +242,10 @@ paginate = 10
         # For more informtion take a look at the README.
         title = "Testimonials"
         subtitle = ""
+
+############################################
+# Other settings
+############################################
 [author]
   name = "Atsushi Saito & Katsuki Tozawa"
 
@@ -302,7 +306,7 @@ paginate = 10
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = false
-    tags = false
+    tags = true
     search = true
     social = true
 
