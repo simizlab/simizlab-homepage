@@ -41,4 +41,4 @@ etc...
 
 - その他: Docker
 
-<div align="center">{{< figure src="/equipments/development.png" >}}</div>
+<div align="center">{{< figure src="/equipments/development.png" width="100%">}}</div>
