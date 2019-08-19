@@ -4,7 +4,7 @@ set RUN_PY=%BASE_DIR%generate_simple_markdown.py
 
 ::==================
 set OUTPUT_DIR=I:\project\simizlab-homepages\test1\content\topics
-set GENERATE_DATE_LIST=2012-03-01 2012-11-17 
+set GENERATE_DATE_LIST=2013-03-02 2013-07-18 2013-09-28 2013-11-29
 ::==================
 
 python %RUN_PY% -o %OUTPUT_DIR% -g %GENERATE_DATE_LIST%
