@@ -7,7 +7,7 @@ keywords = ["Research"]
 
 > ## Mission
 
-We're conducting research on medical engineering using the latest technologies in electronic information engineering such as image engineering, machine learning, pattern recognition, and big data analysis technology.
+Goal of the medical image analysis laboratory is the research, development and validation of image processing algorithms and computer-aided diagnosis systems that enable the objective and reproducible evaluation of anatomical and pathological structures in medical images.
 
 > ## Background
 
