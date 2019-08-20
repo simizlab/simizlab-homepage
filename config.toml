@@ -247,7 +247,7 @@ paginate = 10
 # Other settings
 ############################################
 [author]
-  name = "Atsushi Saito & Katsuki Tozawa"
+  name = "Atsushi Saito, Katsuki Tozawa and Masaya Tanaka"
 
 [params]
     viewMorePostLink = "/topics/"
