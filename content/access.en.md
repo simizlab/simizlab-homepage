@@ -3,6 +3,7 @@ title = "Access"
 date = "2018-06-25"
 description = "Access"
 keywords = ["Access"]
+id = "contact"
 +++
 
 > ## Department
@@ -32,4 +33,4 @@ Walk about 15 minutes from Higashi-Koganei Station to our laboratory
 
 <div align="center">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.0310810671103!2d139.51717469010515!3d35.698558094851535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0431468ca053645!2sDepartment+of+Electrical+and+Electronic+Engineering%2C+TUAT!5e0!3m2!1sen!2sus!4v1565957914522!5m2!1sen!2sus" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-<\div>
+</div>

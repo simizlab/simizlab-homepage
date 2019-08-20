@@ -9,8 +9,10 @@
 
                 {{ if isset .Site.Params "email" }}
 
-                <div class="heading">
-                  <h3>{{ i18n "contactForm" }}</h3>
+                <div class="contact__heading">
+                  <blockquote>
+                    <h3>{{ i18n "contactForm" }}</h3>
+                  </blockquote>
                 </div>
 
                 <div id="contact-message"></div>
@@ -50,7 +52,7 @@
 
         </div>
 
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
 
             {{ if isset .Site.Params "address" }}
             <section>
@@ -63,10 +65,10 @@
 
             {{ end }}
 
-        </div>
+        </div> -->
 
     </div>
     <!-- /.row -->
 </div>
 
-{{ partial "map.html" . }}
+<!-- {{ partial "map.html" . }} -->
