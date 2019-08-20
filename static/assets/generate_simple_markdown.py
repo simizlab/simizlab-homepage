@@ -16,11 +16,13 @@ if __name__ == '__main__':
 
     for generate_date in generate_date_list:
         print(generate_date)
-        with open('{}/{}.md'.format(output_dir, generate_date), 'w') as f:
+        year = generate_date.split('-')[0]
+        with open('{}/{}.en.md'.format(output_dir, generate_date), 'w') as f:
             f.write('---\n')
             f.write('date: {}\n'.format(generate_date))
             f.write('description: ""\n')
             f.write('auther: ""\n')
+            f.write('tags: ["{}"]\n'.format(year))
             f.write('banner: "img/banners/{}.png"\n'.format(generate_date))
             f.write('draft: false\n')
             f.write('---\n')
