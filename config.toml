@@ -102,7 +102,7 @@ paginate = 10
     [languages.ja.params.for_applicants]
       enable = true
       title = "研究室配属を希望する方へ"
-      subtitle = """清水（昭）研究室では多数の大学，公的研究機関，企業と協力して研究を進めています．
+      subtitle = """清水昭伸研究室では多数の大学，公的研究機関，企業と協力して研究を進めています．
                     2016年度は，東京大学，京都大学，九州大学，名古屋工業大学，埼玉医科大学，電気通信大学，
                     神奈川歯科大学などの12大学，理化学研究所など2つの公的機関，Hamburg大学（ドイツ），
                     Auckland大学（ニュージーランド），Children's National Health System（アメリカ）などの
