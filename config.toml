@@ -210,7 +210,22 @@ paginate = 10
     [languages.en.params.for_applicants]
       enable = true
       title = "For Applicants"
-      subtitle = "We hope Doctor student."
+      subtitle = """The Shimizu Akinobu Laboratory conducts research
+                    in cooperation with many universities,
+                    public research institutions, and companies.
+                    In 2016, we are conducting research in collaboration with
+                    12 universities (the University of Tokyo etc.),
+                    2 public institutions (RIKEN etc.),
+                    overseas universities (University of Hamburg: Germany etc.)
+                    and research institutions (Children’s National Health System: USA),
+                    and other domestic companies.
+                    Would you like to join the lab and conduct research
+                    in collaboration with off-campus research institutions?
+                    The research uses programming, linear algebra, analysis,
+                    probability statistics, signal processing, and so on.
+                    If you are interested in medical-engineering collaboration
+                    using medical image analysis, please visit the laboratory.
+                  """
     [languages.en.params.recent_posts]
       enable = true
       title = "Topics"
