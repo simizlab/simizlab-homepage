@@ -188,7 +188,7 @@ paginate = 10
     [languages.en.params]
       defaultKeywords = ["Akinobu Shimizu", "Medical Image Processing", "Image Processing", "Pattern recognition", "Medical engineering"]
       defaultDescription = "Keyword of Shimizu Laboratory"
-      about_us = "<p>This is Homepage of Shimizu Laboratory, Tokyo University of Agriculture and Technology．</p>"
+      about_us = "<p>This is Shimizu Laboratory's, Tokyo University of Agriculture and Technology, homepages．</p>"
       address = """<p><strong>Shimizu Laboratory, Tokyo University of Agriculture and Technology</strong>
           <br>2-24-16 Naka-cho
           <br>Koganei-shi
