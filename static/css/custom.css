@@ -132,13 +132,13 @@ ol.pub__list li:hover{
 .contact__heading {
   margin-bottom: 40px;
 }
+
 .contact__heading h1,
 .contact__heading h2,
 .contact__heading h3,
 .contact__heading h4,
 .contact__heading h5 {
   display: inline-block;
-  border-bottom: solid 5px #6aae7a;
   line-height: 1.1;
   margin-bottom: 0;
   padding-bottom: 10px;
