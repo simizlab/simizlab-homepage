@@ -1,4 +1,6 @@
-baseurl = "https://example.org"
+baseurl = "https://simizlab.github.io/"
+relativeURLs = true
+uglyURLs = true
 
 theme = "hugo-universal-theme"
 
