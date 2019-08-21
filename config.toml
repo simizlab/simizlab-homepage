@@ -1,7 +1,7 @@
 baseurl = "https://simizlab.github.io/"
-relativeURLs = true
-uglyURLs = true
-
+# relativeURLs = true
+# uglyURLs = true
+canonifyurls = true
 theme = "hugo-universal-theme"
 
 # languageCode = "ja"
