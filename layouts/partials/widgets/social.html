@@ -4,7 +4,7 @@
     <div class="panel-heading">
         <h3 class="panel-title">{{ i18n "social_title" }}</h3>
     </div>
-    
+
     <div class="panel-body">
         <div class="widget-social__content widget__content">
             {{- with .Site.Params.widgets.socials.service.facebook }}
@@ -73,7 +73,7 @@
             {{- end }}
             {{- with .Site.Params.widgets.socials.service.email }}
             <div class="widget-social__item widget__item">
-                <a class="widget-social__link widget__link widget-social__btn" title="Email" href="mailto:{{ . }}">
+                <a class="widget-social__link widget__link widget-social__btn" title="Email" href="{{ . | absLangURL }}#contact-message">
                     {{ partial "svg/email.svg" (dict "class" "widget-social__link-icon") }}
                     <span>Email</span>
                 </a>

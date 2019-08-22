@@ -74,6 +74,11 @@ paginate = 10
         name = "GitHub"
         url = "https://github.com/simizlab"
         pre = "<i class='fa fa-2x fa-github'></i>"
+    [[languages.ja.menu.topbar]]
+      weight = 2
+      name = "Email"
+      url = "/access"
+      pre = "<i class='fa fa-2x fa-envelope'></i>"
 
   [languages.ja.params]
     defaultKeywords = ["清水昭伸", "医用画像処理", "画像工学", "パターン認識", "医用工学", "しみずあきのぶ"]
@@ -186,6 +191,11 @@ paginate = 10
         name = "GitHub"
         url = "https://github.com/simizlab"
         pre = "<i class='fa fa-2x fa-github'></i>"
+      [[languages.en.menu.topbar]]
+        weight = 2
+        name = "Email" 
+        url = "/access"
+        pre = "<i class='fa fa-2x fa-envelope'></i>"
 
     [languages.en.params]
       defaultKeywords = ["Akinobu Shimizu", "Medical Image Processing", "Image Processing", "Pattern recognition", "Medical engineering"]
@@ -273,7 +283,7 @@ paginate = 10
     googleMapsApiKey = ""
 
     #?Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "green"
+    style = "turquoise"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -319,3 +329,4 @@ paginate = 10
 
   [params.widgets.socials.service]
     github = "simizlab"
+    email = "/access"
