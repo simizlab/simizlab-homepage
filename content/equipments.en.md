@@ -8,13 +8,13 @@ keywords = ["equipments","gpu","cpu","environments"]
 
 Deep learning, which has been active in various fields in recent years, is supported by the latest computers. In our laboratory, we have prepared the latest computer environment for smooth research activities.
 
-{{<csv src="/static/equipments/gpu_equipments.csv">}}
+{{<csv src="/static/csv/equipments/gpu_equipments.csv">}}
 
 > ## Personal PC
 
 If you belong to this laboratory, you will be provided with a powerful desktop PC.
 <!-- <div align="center"><img src="/equipments/personal_pc.png"  width=20% title="personal pc"></div> -->
-<div align="center">{{< figure src="/equipments/personal_pc.png" title="Core i7 7800, GeForceGTX 1080ti, 64GB RAM" width="20%">}}</div>
+<div align="center">{{< figure src="/img/equipments/personal_pc.png" title="Core i7 7800, GeForceGTX 1080ti, 64GB RAM" width="20%">}}</div>
 
 > ## Otherwise
 
@@ -26,7 +26,7 @@ Not only GPU server but also powerful CPU server and file server are prepared.
 
 etc...
 
-<div align="center">{{< figure src="/equipments/server_rack.png" title="Server rack" width="20%">}}</div>
+<div align="center">{{< figure src="/img/equipments/server_rack.png" title="Server rack" width="20%">}}</div>
 
 > ## Development environment
 
@@ -40,4 +40,4 @@ We mainly conduct research using the following tools.
 
 - else: Docker
 
-<div align="center">{{< figure src="/equipments/development.png"  width="100%">}}</div>
+<div align="center">{{< figure src="/img/equipments/development.png"  width="100%">}}</div>
