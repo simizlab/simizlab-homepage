@@ -4,17 +4,29 @@ description = "equipments at lab."
 keywords = ["equipments","gpu","cpu","environments"]
 +++
 
-> ## Server environment
+> ## Personal Computer  
 
-Deep learning, which has been active in various fields in recent years, is supported by the latest computers. In our laboratory, we have prepared the latest computer environment for smooth research activities.
+TStudents in our laboratory are provided with powerful computers. The supplied computer can be used freely by one student and can perform various experiments at any time.  
+Here are some of the personal computers.  
 
-{{<csv src="/static/equipments/gpu_equipments.csv">}}
+{{<facillity_list src="/static/equipments/personal.csv">}}  
 
-> ## Personal PC
+> ## Server
 
-If you belong to this laboratory, you will be provided with a powerful desktop PC.
-<!-- <div align="center"><img src="/equipments/personal_pc.png"  width=20% title="personal pc"></div> -->
-<div align="center">{{< figure src="/equipments/personal_pc.png" title="Core i7 7800, GeForceGTX 1080ti, 64GB RAM" width="20%">}}</div>
+In order to satisfy the greed that even personal computers seem to be unsatisfactory, we have a computer server. If you use a server, you can experiment more powerful than a personal computer.  
+Here we introduce all the servers owned by our laboratory.  
+
+### GPU Server
+
+{{<facillity_list src="/static/equipments/gpu_server.csv">}}  
+
+### CPU Server
+
+{{<facillity_list src="/static/equipments/cpu_server.csv">}}  
+
+### File Server
+
+{{<facillity_list src="/static/equipments/file_server.csv">}}  
 
 > ## Otherwise
 
