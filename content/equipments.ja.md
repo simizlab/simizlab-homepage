@@ -5,29 +5,36 @@ description = "研究設備"
 keywords = ["研究設備","gpu","cpu"]
 +++
 
-> ## サーバー環境
+<span style="font-size: 120%">
+画像処理の研究において最も重要なものの1つが計算機資源，すなわちコンピュータです．画像を解析し重要な情報を取り出すためには，性能の良いコンピュータが欠かせません．  
+本研究室では強力な計算能力を持つコンピュータを多数所有しており，快適な研究生活を送れます．  
+</span>
 
-近年，様々な分野で活躍しているディープラーニング技術は，最新の計算機によって支えられています．当研究室では，円滑な研究活動を行うために最新の計算機環境を用意しています．
 
-{{<csv src="/static/csv/equipments/gpu_equipments.csv">}}
+> ## 個人用コンピュータ  
 
-> ## 個人用PC
+本研究室の学生には強力なコンピュータが支給されます．支給されたコンピュータは学生が1人で自由に使用することができ，いつでも様々な実験を行うことができます．  
+ここでは，個人用コンピュータの一部を紹介します．
 
-本研究室に所属すると，一人ひとりに強力なデスクトップPCが支給されます．
-<!-- <div align="center"><img src="/equipments/personal_pc.png"  width=20% title="personal pc"></div> -->
-<div align="center">{{< figure src="/img/equipments/personal_pc.png" title="Core i7 7800, GeForceGTX 1080ti, 64GB RAM" width="20%">}}</div>
+{{<facillity_list src="/static/equipments/personal.csv">}}  
 
-> ## その他
+> ## サーバー
 
-GPUサーバーだけでなく，強力なCPUサーバーやファイルサーバーなども用意しています．
+個人用コンピュータでも物足りないと思ってきた欲張りのために，本研究室では計算機サーバーを用意しています．サーバーを使えば，個人用コンピュータよりもパワフルな実験が可能です．  
+ここでは本研究室が所有しているサーバーをすべて紹介します．
 
-- 30Core 3TB RAM CPUサーバー
+### GPUサーバー
 
-- 100TB ファイルサーバー
+{{<facillity_list src="/static/equipments/gpu_server.csv">}}  
 
-etc...
+### CPUサーバー
 
-<div align="center">{{< figure src="/img/equipments/server_rack.png" title="サーバーラック" width="20%">}}</div>
+{{<facillity_list src="/static/equipments/cpu_server.csv">}}  
+
+### ファイルサーバー
+
+{{<facillity_list src="/static/equipments/file_server.csv">}}  
+
 
 > ## 開発環境
 
