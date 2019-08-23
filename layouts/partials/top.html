@@ -10,9 +10,9 @@
           {{ range .Site.Menus.topbar.ByWeight }}
             {{ $name := lower .Name}}
             {{ if eq $name "email"}}
-              <a href="{{ .URL | absLangURL }}#contact-message" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
+              <a href="{{ .URL | absLangURL }}#contact-message" style="opacity: 1;">{{ .Pre }}</a>
             {{else}}
-              <a href="{{ .URL | absLangURL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
+              <a href="{{ .URL | absLangURL }}" target="_blank" rel="noopener noreferrer" style="opacity: 1;">{{ .Pre }}</a>
             {{ end }}
           {{ end }}
         </div>

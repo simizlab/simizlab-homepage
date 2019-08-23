@@ -193,7 +193,7 @@ paginate = 10
         pre = "<i class='fa fa-2x fa-github'></i>"
       [[languages.en.menu.topbar]]
         weight = 2
-        name = "Email" 
+        name = "Email"
         url = "/access"
         pre = "<i class='fa fa-2x fa-envelope'></i>"
 
@@ -298,7 +298,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     #?Enable the contact form by entering your Formspree.io email
-    email = "simiz@cc.tuat.ac.jp"
+    email = "s187231y@st.go.tuat.ac.jp"
     contact_form_ajax = false
 
 [Permalinks]
