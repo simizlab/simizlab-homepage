@@ -146,3 +146,10 @@ ol.pub__list li:hover{
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+
+.contact__heading blockquote{
+	padding: 10px 20px;
+    margin: 10px 0 20px;
+    font-size: 14px;
+    border-left: 5px solid #4fbfa8;
+}
