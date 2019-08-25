@@ -4,6 +4,14 @@
     <div class="container">
         <div class="col-md-12">
                 <div class="heading text-center">
+                    <h2>{{ .Site.Params.for_applicants.msg_title }}</h2>
+                </div>
+
+                <p class="lead">
+                    {{ .Site.Params.for_applicants.msg_subtitle | markdownify }}
+                </p>
+
+                <div class="heading text-center">
                     <h2>{{ .Site.Params.for_applicants.title }}</h2>
                 </div>
 
