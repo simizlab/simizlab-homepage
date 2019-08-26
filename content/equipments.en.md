@@ -34,18 +34,6 @@ Here we introduce all the servers owned by our laboratory.
 
 {{<facillity_list src="/static/csv/equipments/file_server.csv">}}  
 
-> ## Otherwise
-
-Not only GPU server but also powerful CPU server and file server are prepared.
-
-- 30Core 3TB RAM CPU server
-
-- 100TB file server
-
-etc...
-
-<div align="center">{{< figure src="/img/equipments/server_rack.png" title="Server rack" width="20%">}}</div>
-
 > ## Development environment
 
 We mainly conduct research using the following tools.
