@@ -15,7 +15,7 @@ Our laboratory has many computers with powerful computing capabilities, so you c
 The students in our laboratory are provided with powerful computers. The supplied computer can be used freely by one student and can perform various experiments at any time.  
 Here are some of the personal computers.  
 
-{{<facillity_list src="/static/csv/equipments/personal_en.csv">}}  
+{{<facillity_list src="/static/csv/equipments/personal.en.csv">}}  
 
 > ## Server
 

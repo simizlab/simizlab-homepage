@@ -16,7 +16,7 @@ keywords = ["研究設備","gpu","cpu"]
 本研究室の学生には強力なコンピュータが支給されます．支給されたコンピュータは学生が1人で自由に使用することができ，いつでも様々な実験を行うことができます．  
 ここでは，個人用コンピュータの一部を紹介します．
 
-{{<facillity_list src="/static/csv/equipments/personal_ja.csv">}}  
+{{<facillity_list src="/static/csv/equipments/personal.ja.csv">}}  
 
 > ## サーバー
 
