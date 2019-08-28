@@ -307,7 +307,9 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     #?Enable the contact form by entering your Formspree.io email
-    email = "s187231y@st.go.tuat.ac.jp"
+    #Please convert your email address to rot13 using "https://rot13.com/"
+    #
+    email = "f187231l@fg.tb.ghng.np.wc"
     contact_form_ajax = false
 
 [Permalinks]

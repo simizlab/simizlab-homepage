@@ -148,8 +148,112 @@ ol.pub__list li:hover{
 }
 
 .contact__heading blockquote{
-	padding: 10px 20px;
+    padding: 10px 20px;
     margin: 10px 0 20px;
     font-size: 14px;
     border-left: 5px solid #4fbfa8;
+}
+
+/* Miyabi na code */
+.facility__list{
+  overflow: hidden;
+}
+
+.card__layout__outer{
+    margin-left:0.1%;
+    margin-right:0.1%;
+    margin-top:10px;
+    margin-bottom:10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    width:300px;
+}
+
+.card__layout__inner{
+    padding: 10px;
+    background: #fff;
+    text-align:center;
+    box-shadow: 0 2px 5px #ccc;
+}
+.card__layout__inner img{
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+.card__layout__inner h4 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    line-height: 1.4;
+    padding:0.25em 1em;
+    display: inline-block;
+}
+.card__layout__inner h4:before, h4:after {
+  content:'';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  display: inline-block;
+}
+
+.card__layout__inner h4:before {
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  top:0;
+  left: 0;
+}
+
+.card__layout__inner h4:after {
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  bottom:0;
+  right: 0;
+}
+
+/* https://webliker.info/75964/ */
+table.card__layout__inner{
+  margin-top:10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.card__layout__inner tr{
+  border-bottom: solid 2px white;
+}
+
+table.card__layout__inner tr:last-child{
+  border-bottom: none;
+}
+
+table.card__layout__inner th{
+  position: relative;
+  text-align: left;
+  width: 30%;
+  background-color: #52c2d0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* table.card__layout__inner th:after{
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top:calc(50% - 10px);
+  right:-10px;
+  border-left: 10px solid #52c2d0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+} */
+
+table.card__layout__inner td{
+  text-align: left;
+  width: 70%;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
 }

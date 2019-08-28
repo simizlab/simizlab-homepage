@@ -1,62 +1,40 @@
 <div
-    style="overflow: hidden;">
+    class="facility__list">
     {{ with .Get "src" }}
         {{ range $i, $r := getCSV "," . }}
             <div
-                style="margin-left:0.1%;
-                       margin-right:0.1%;
-                       margin-top:10px;
-                       margin-bottom:10px;
-                       display: inline-block;
-                       vertical-align: top;
-                       padding: 5px;
-                       width:300px;">
+                class="card__layout__outer">
+
                 <div
-                    style="padding: 10px;
-                           background: #fff;
-                           text-align:center;
-                           box-shadow: 0 2px 5px #ccc;">
-                    <h4
-                        style="margin-bottom: 5px;
-                               margin-top: 5px;
-                               text-align: center;">
+                    class="card__layout__inner">
+                    <h4>
                         {{index $r 1 }}
                     </h4>
                     <img
                         src="{{index $r 0 }}"
-                        alt=""
-                        style="border-radius: 5px 5px 0 0;
-                               max-width: 100%;
-                               height: auto;">
-                    <div
-                        style="text-align: left;
-                               padding-top: 5px;">
-                        <div
-                            style="font-size: 14px;
-                                   line-height: 1.5;">
-                            CPU：{{index $r 2 }}
-                        </div>
-                        <div
-                            style="font-size: 14px;
-                                   line-height: 1.5;">
-                            GPU：{{index $r 3 }}
-                        </div>
-                        <div
-                            style="font-size: 14px;
-                                   line-height: 1.5;">
-                            RAM：{{index $r 4 }}
-                        </div>
-                        <div
-                            style="font-size: 14px;
-                                   line-height: 1.5;">
-                            ROM：{{index $r 5 }}
-                        </div>
-                        <div
-                            style="font-size: 14px;
-                                   line-height: 1.5;">
-                            comment：{{index $r 6 }}
-                        </div>
-                    </div>
+                        alt="">
+                    <table class="card__layout__inner">
+                      <tr>
+                        <th>CPU</th>
+                        <td>{{index $r 2 }}</td>
+                      </tr>
+                      <tr>
+                        <th>GPU</th>
+                        <td>{{index $r 3 }}</td>
+                      </tr>
+                      <tr>
+                        <th>RAM</th>
+                        <td>{{index $r 4 }}</td>
+                      </tr>
+                      <tr>
+                        <th>ROM</th>
+                        <td>{{index $r 5 }}</td>
+                      </tr>
+                      <tr>
+                        <th>Comment</th>
+                        <td>{{index $r 6 }}</td>
+                      </tr>
+                    </table>
                 </div>
             </div>
         {{ end }}
