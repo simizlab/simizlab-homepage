@@ -109,6 +109,7 @@ public
 
 この作業を日本語と英語のそれぞれのお問い合わせフォームから行います．
 
+
 ## 機能
 
 [Universal](https://themes.gohugo.io/hugo-universal-theme/)でも記載されていますが，いくつか紹介します．
@@ -118,6 +119,7 @@ public
 - [For applicants](#For_applicants)
 - [トピックス](#トピックス)
 
+
 ### Carousel
 
 トップページのやつです．
@@ -125,6 +127,7 @@ public
 <img src="source/img/carousel.PNG" width="80%">
 
 `data/carousel` 以下を編集することによって変更することができます．
+
 
 ### Recent_posts
 
@@ -134,6 +137,7 @@ public
 
 `content/topics` に記事を入れていけば変更されます．
 
+
 ### For_applicants
 
 熱い思いを書くところとして用意しました．
@@ -141,6 +145,7 @@ public
 <img src="source/img/for_applicants.PNG" width="80%">
 
 `config.toml` における `for_applicants` のところを英語版，日本語版それぞれ編集することで設定できます．
+
 
 ### トピックス
 
@@ -155,7 +160,7 @@ public
 
 マークダウンの一番上には以下のことを書いてください．
 
-```markdown
+```md
 ---
 date: YYYY-MM-DD   # 日付
 description : ""   # 記事の簡単な説明（省略可）
