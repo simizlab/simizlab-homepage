@@ -5,17 +5,17 @@ keywords = ["equipments","gpu","cpu","environments"]
 +++
 
 <span style="font-size: 120%">
-One of the most important in image processing research is computer resources, that is, computers. A high-performance computer is indispensable for analyzing images and extracting important information.  
+One of the most important in image processing research is computer resources. A high-performance computer is needed for analyzing images and extracting important information.  
 Our laboratory has many computers with powerful computing capabilities, so you can live a comfortable research life.  
 </span>
 
 
 > ## Personal Computer  
 
-TStudents in our laboratory are provided with powerful computers. The supplied computer can be used freely by one student and can perform various experiments at any time.  
+The students in our laboratory are provided with powerful computers. The supplied computer can be used freely by one student and can perform various experiments at any time.  
 Here are some of the personal computers.  
 
-{{<facillity_list src="/static/csv/equipments/personal.csv">}}  
+{{<facillity_list src="/static/csv/equipments/personal_en.csv">}}  
 
 > ## Server
 
