@@ -7,7 +7,7 @@ keywords = ["Research"]
 
 > ## Mission
 
-Goal of the medical image analysis laboratory is the research, development and validation of image processing algorithms and computer-aided diagnosis systems that enable the objective and reproducible evaluation of anatomical and pathological structures in medical images.
+Goal of the medical image analysis laboratory is researches on medical image analysis based on the state of the art technologies of pattern recognition, machine learning, artificial intelligence and big data analysis, and development of computer aided-diagnosis systems using the research results.
 
 > ## Background
 
