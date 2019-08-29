@@ -1,5 +1,3 @@
-# このリポジトリは， [simizlab/simizlab-homepages](https://github.com/simizlab/simizlab-homepages) に移動しました（20190829）
-
 ## 清水昭伸研究室のホームページ
 
 東京農工大学　清水昭伸研究室のホームページのリポジトリです．

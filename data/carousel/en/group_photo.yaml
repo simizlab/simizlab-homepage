@@ -1,5 +1,6 @@
 weight: 1
 title: "Shimizu Lab."
 description:
-  "<p>Research on medical engineering using state-of-the-art electronic information engineering such as image engineering, machine learning, pattern recognition, and big data analysis technology</p>"
+  "<p>Researches on medical image analysis based on the state of the art technologies of pattern recognition, machine learning, artificial intelligence, and big data analysis.
+      <br></br>Development of computer-aided diagnosis systems using the research results.</p>"
 image: "/img/carousel/group-photo.png"
