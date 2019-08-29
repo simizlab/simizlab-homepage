@@ -5,8 +5,9 @@ keywords = ["equipments","gpu","cpu","environments"]
 +++
 
 <span style="font-size: 120%">
-One of the most important in image processing research is computer resources. A high-performance computer is needed for analyzing images and extracting important information.  
-Our laboratory has many computers with powerful computing capabilities, so you can live a comfortable research life.  
+High-performance computers are highly required for analyzing high dimensional medical images.  
+Our laboratory has a plenty of computers with large memories, powerful CPUs and/or GPUs.  
+Students can use desktop computers provided from our lab as well as server machines for large scale computation. 
 </span>
 
 
@@ -34,9 +35,9 @@ Here we introduce all the servers owned by our laboratory.
 
 {{<facillity_list src="/static/csv/equipments/file_server.csv">}}  
 
-> ## Development environment
+> ## Software environment
 
-We mainly conduct research using the following tools.
+OS and software mainly used in our lab can be found below
 
 - OS: Windows, Ubuntu
 
