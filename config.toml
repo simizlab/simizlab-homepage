@@ -103,15 +103,14 @@ paginate = 10
           """
     [languages.ja.params.for_applicants]
       enable = true
-      title = "研究室配属を希望する方へ"
-      subtitle = """清水昭伸研究室では多数の大学，公的研究機関，企業と協力して研究を進めています．
-                    2016年度は，東京大学，京都大学，九州大学，名古屋工業大学，埼玉医科大学，電気通信大学，
-                    神奈川歯科大学などの12大学，理化学研究所など2つの公的機関，Hamburg大学（ドイツ），
-                    Auckland大学（ニュージーランド），Children's National Health System（アメリカ）などの
-                    海外の大学や研究機関，その他に複数の国内の企業と連携をしながら研究を進めています．
-                    皆さんも研究室に参加して，学外の研究機関と連携をしながら一緒に研究をしませんか？
+      title = "卒業研究配属や大学院入学の希望者へ"
+      subtitle = """2019年度は，東京大学，京都大学，名古屋工業大学，大阪市立大学，
+                    九州大学などの10を超える大学，理化学研究所など2つの公的機関，
+                    ESIEE Paris（フランス），Children’s National Health System（アメリカ）
+                    などの海外の大学や研究機関，日本メジフィジックスなど国内の複数の企業と連携を
+                    しながら研究を進めています．
                     研究では，プログラミング，線形代数，解析，確率統計，信号処理などを利用します．
-                    医用画像解析を用いた医工連携に興味がある人は研究室見学に来てください．
+                    医用画像解析や学外の施設との医工連携に興味がある人は、是非研究室見学に来てください．
                     """
       msg_title = "学生へのメッセージ"
       msg_subtitle = """日々の研究の積み重ねが大きな成果を生みます．
@@ -230,22 +229,22 @@ paginate = 10
           """
     [languages.en.params.for_applicants]
       enable = true
-      title = "For Applicants"
-      subtitle = """The Shimizu Akinobu Laboratory conducts research
-                    in cooperation with many universities,
-                    public research institutions, and companies.
-                    In 2016, we are conducting research in collaboration with
-                    12 universities (the University of Tokyo etc.),
-                    2 public institutions (RIKEN etc.),
-                    overseas universities (University of Hamburg: Germany etc.)
-                    and research institutions (Children’s National Health System: USA),
+      title = "To Applicants"
+      subtitle = """Medical image analysis laboratory has collaborated
+                    with many universities, public research institutions,
+                    and companies. In 2019, we have collaborated with more than
+                    ten universities (the University of Tokyo etc.),
+                    two public institutions (RIKEN etc.),
+                    overseas universities (ESIEE Paris(France) etc.)
+                    and research institutions (Children’s National Health System(USA)),
                     and other domestic companies.
-                    Would you like to join the lab and conduct research
-                    in collaboration with off-campus research institutions?
-                    The research uses programming, linear algebra, analysis,
-                    probability statistics, signal processing, and so on.
-                    If you are interested in medical-engineering collaboration
-                    using medical image analysis, please visit the laboratory.
+                    Knowledge of programming languages,
+                    mathematics (linear algebra, mathematical analysis,
+                    statistical mathematics), signal processing is required to
+                    conduct the researches in our lab.
+                    If you are interested in medical image analysis and/or
+                    collaboration with our research partners,
+                    please visit our laboratory.
                   """
     [languages.en.params.recent_posts]
       enable = true
