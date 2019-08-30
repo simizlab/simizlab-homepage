@@ -56,8 +56,11 @@
                                         </p>
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-                                    </p>
+                                    <!-- https://gohugo.io/content-management/summaries/ -->
+                                    {{ if .Truncated }}
+                                      <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                      </p>
+                                    {{ end }}
                                 </div>
                             </div>
                         </section>
