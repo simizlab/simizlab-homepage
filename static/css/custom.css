@@ -267,6 +267,6 @@ table.card__layout__inner td{
 /* Miyabi na code End */
 /* *************************************************** */
 #blog-listing-medium .post .image-limitation{
-  min-height: 180px;
-  max-height: 180px;
+  min-height: 200px;
+  max-height: 200px;
 }
