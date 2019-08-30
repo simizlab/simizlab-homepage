@@ -96,11 +96,8 @@ paginate = 10
     # Enable or disable top bar with social icons
     [languages.ja.params.topbar]
         enable = true
-        text = """<p class="hidden-sm hidden-xs">東京農工大学　清水昭伸研究室</p>
-          <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-          <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-          </p>
-          """
+        text = """<p>東京農工大学　清水昭伸研究室</p>
+               """
     [languages.ja.params.for_applicants]
       enable = true
       title = "卒業研究配属や大学院入学の希望者へ"
@@ -222,10 +219,7 @@ paginate = 10
     # Enable or disable top bar with social icons
     [languages.en.params.topbar]
         enable = true
-        text = """<p class="hidden-sm hidden-xs">Shimizu Laboratory</p>
-          <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-          <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-          </p>
+        text = """<p>Shimizu Laboratory</p>
           """
     [languages.en.params.for_applicants]
       enable = true
