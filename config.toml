@@ -96,7 +96,8 @@ paginate = 10
     # Enable or disable top bar with social icons
     [languages.ja.params.topbar]
         enable = true
-        text = """<p>東京農工大学　清水昭伸研究室</p>
+        text = """<p class="hidden-sm hidden-xs">東京農工大学　清水昭伸研究室</p>
+                  <p class="hidden-md hidden-lg">東京農工大学<br>清水昭伸研究室</p>
                """
     [languages.ja.params.for_applicants]
       enable = true
