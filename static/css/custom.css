@@ -9,6 +9,7 @@
   min-height: 230px;
 }
 
+/* *************************************************** */
 /* From saito3 */
 .pub__item {
 	display: block;
@@ -44,7 +45,7 @@ ol.pub__list li:hover{
 	background-color: #f8f8f8;
 }
 /* From saito3 end*/
-
+/* *************************************************** */
 /* Language switch menu */
 /* https://github.com/moodlebox/hugo-moodlebox-theme/blob/master/assets/css/moodlebox.css#L3690 */
 #language-switch a.dropdown-toggle {
@@ -56,7 +57,8 @@ ol.pub__list li:hover{
   left: auto;
   right: 0;
 }
-
+/* Language switch menu End*/
+/* *************************************************** */
 /* Widgets */
 /* https://github.com/Vimux/Mainroad/blob/master/assets/css/style.css#L1014 */
 .widget {
@@ -117,7 +119,9 @@ ol.pub__list li:hover{
 	color: #fff;
 	background: #4fbfa8;
 }
-
+/* Widgets End*/
+/* *************************************************** */
+/* Thumnail end */
 /* https://github.com/Vimux/Mainroad/blob/2dd3780f30a4c7d253609e7c2821ec87efea64e3/assets/css/style.css#L623 */
 .post__thumbnail {
 	max-width: 1030px;
@@ -128,7 +132,9 @@ ol.pub__list li:hover{
 .post__thumbnail img {
 	width: 50%;
 }
-
+/* Thumnail end */
+/* *************************************************** */
+/* Contact */
 .contact__heading {
   margin-bottom: 40px;
 }
@@ -153,7 +159,8 @@ ol.pub__list li:hover{
     font-size: 14px;
     border-left: 5px solid #4fbfa8;
 }
-
+/* Contact */
+/* *************************************************** */
 /* Miyabi na code */
 .facility__list{
   overflow: hidden;
@@ -256,4 +263,11 @@ table.card__layout__inner td{
   text-align: center;
   background-color: #eee;
   padding: 10px 0;
+}
+/* Miyabi na code End */
+/* *************************************************** */
+#blog-listing-medium .post .row{
+    margin-right: -15px;
+    margin-left: -15px;
+    /* height:180px; */
 }
