@@ -5,6 +5,17 @@ keywords = ["研究業績", "業績"]
 id = "publications"
 +++
 
+> ## 業績リスト
+
+- <a href="/pdf/Books & Reviewed journal papers.pdf" target="_ blank" rel="noopener noreferrer">著書及び原著論文（査読あり）</a>
+- <a href="/pdf/Reviewed proceedings of international conference.pdf" target="_ blank" rel="noopener noreferrer">国際会議論文（査読あり）</a>
+- <a href="/pdf/Invited talks_tutorial_symposium.pdf" target="_ blank" rel="noopener noreferrer">特別講演，チュートリアル，シンポジウムなど</a>
+- <a href="/pdf/Awards & Patents.pdf" target="_ blank" rel="noopener noreferrer">論文賞及び特許など</a>
+- <a href="/pdf/Tutorial papers (Japanese only).pdf" target="_ blank" rel="noopener noreferrer">総説・解説</a>
+- <a href="/pdf/Scientific research funds.pdf" target="_ blank" rel="noopener noreferrer">研究資金</a>
+- <a href="/pdf/Academic society activities_etc.pdf" target="_ blank" rel="noopener noreferrer">学会活動等</a>
+
+
 > ## 公的活動等
 
 - 地域イノベーション・基盤技術高度化推進委託事業に関する評価委員（関東経済産業局）
