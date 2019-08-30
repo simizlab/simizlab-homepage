@@ -1,0 +1,13 @@
+weight: 4
+title: ""
+description: >
+  <ul class="list-style-none">
+    <span style="font-size:16px;">Atsushi Saito, <br>Shigeru Nawano and Akinobu Shimizu</span><br><br>
+    <span style="font-size:22px;">Joint optimization of segmentation and shape prior from level-set-based statistical shape model, and its application to the automated segmentation of abdominal organs</span><br><br>
+    <div style="font-size:16px;">
+      <em>Medical Image Analysis</em>,
+      <strong>28</strong>, <span>46-65</span>, <span>2016</span><br>
+      <a href="http://dx.doi.org/10.1016/j.media.2015.11.003" target="_blank" rel="noopener noreferrer" class="download" style="color:white;">10.1016/j.media.2015.11.003</a>
+    </div>
+  </ul>
+image: "/img/carousel/joint-optimization-of-segmentation-and-shape-prior-from-level-set-based-statistical-shape-model.png"

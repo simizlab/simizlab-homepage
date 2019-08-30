@@ -1,0 +1,13 @@
+weight: 3
+title: ""
+description: >
+  <ul class="list-style-none">
+    <span style="font-size:16px;">Shouhei Hanaoka, Akinobu Shimizu, Mitsutaka Nemoto, Yukihiro Nomura, Soichiro Miki, Takeharu Yoshikawa, Naoto Hayashi, Kuni Ohtomo, Yoshitaka Masutani<br><br>
+    <span style="font-size:22px;">Automatic detection of over 100 anatomical landmarks in medical CT images: A framework with independent detectors and combinatorial optimization</span><br><br>
+    <div style="font-size:16px;">
+      <em>Medical Image Analysis</em>,
+      <strong>35</strong>, <span>192-214</span>, <span>2016</span><br>
+      <a href="http://dx.doi.org/10.1016/j.media.2016.04.001" target="_blank" rel="noopener noreferrer" class="download" style="color:white;">10.1016/j.media.2016.04.001</a>
+    </div>
+  </ul>
+image: "/img/carousel/automatic-detection-of-over-100-anatomical-landmarks-in-medical-CT-images.png"

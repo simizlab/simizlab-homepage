@@ -1,0 +1,13 @@
+weight: 2
+title: ""
+description: >
+  <ul class="list-style-none">
+    <span style="font-size:16px;">Atsushi Saito, Masaki Tsujikawa, Tetsuya Takakuwa, Shigehito Yamada, <br>Akinobu Shimizu</span><br><br>
+    <span style="font-size:22px;">Level set distribution model of nested structures using logarithmic transformation</span><br><br>
+    <div style="font-size:16px;">
+      <em>Medical Image Analysis</em>,
+      <strong>56</strong>, <span>1-10</span>, <span>2019</span><br>
+      <a href="http://dx.doi.org/10.1016/j.media.2019.05.003" target="_blank" rel="noopener noreferrer" class="download" style="color:white;">10.1016/j.media.2019.05.003</a>
+    </div>
+  </ul>
+image: "/img/carousel/level-set-distribution-model-of-nested-structures-using-logarithmic-transformation.png"
