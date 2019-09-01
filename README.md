@@ -91,7 +91,7 @@ public
 
 スクレイビング対策のために，[rot13.com](https://rot13.com/) でメールアドレスを暗号化してから，入力してください．
 
-デフォルトは，以下のようになっています．
+例えば， `test@email.com` の場合は，以下のようになります．
 
 `test@email.com` ➡(rot13.comによる変換)➡ `grfg@rznvy.pbz` が入力されています．
 
