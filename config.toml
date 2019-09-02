@@ -74,11 +74,11 @@ paginate = 10
         name = "GitHub"
         url = "https://github.com/simizlab"
         pre = "<i class='fa fa-2x fa-github'></i>"
-    [[languages.ja.menu.topbar]]
-      weight = 2
-      name = "Email"
-      url = "access"
-      pre = "<i class='fa fa-2x fa-envelope'></i>"
+    # [[languages.ja.menu.topbar]]
+    #   weight = 2
+    #   name = "Email"
+    #   url = "access"
+    #   pre = "<i class='fa fa-2x fa-envelope'></i>"
 
   [languages.ja.params]
     defaultKeywords = ["清水昭伸", "医用画像処理", "画像工学", "パターン認識", "医用工学", "しみずあきのぶ"]
@@ -197,16 +197,16 @@ paginate = 10
         name = "GitHub"
         url = "https://github.com/simizlab"
         pre = "<i class='fa fa-2x fa-github'></i>"
-      [[languages.en.menu.topbar]]
-        weight = 2
-        name = "Email"
-        url = "access"
-        pre = "<i class='fa fa-2x fa-envelope'></i>"
+      # [[languages.en.menu.topbar]]
+      #   weight = 2
+      #   name = "Email"
+      #   url = "access"
+      #   pre = "<i class='fa fa-2x fa-envelope'></i>"
 
     [languages.en.params]
       defaultKeywords = ["Akinobu Shimizu", "Medical Image Processing", "Image Processing", "Pattern recognition", "Medical engineering"]
       defaultDescription = "Keyword of Shimizu Laboratory"
-      about_us = "<p>This is Shimizu Laboratory's, Tokyo University of Agriculture and Technology, homepages．</p>"
+      about_us = "<p>This is Shimizu Laboratory's homepage．</p>"
       address = """<p><strong>Shimizu Laboratory, Tokyo University of Agriculture and Technology</strong>
           <br>2-24-16 Naka-cho
           <br>Koganei-shi
@@ -270,7 +270,7 @@ paginate = 10
   name = "Atsushi Saito, Katsuki Tozawa and Masaya Tanaka"
 
 [params]
-    viewMorePostLink = "/topics/"
+    viewMorePostLink = "topics"
     author = "Katsuki Tozawa & Atsushi Saito"
     copyright = "Copyright (c) 2019, Shimizu Lab., Tokyo University of Agriculture and Technology, All rights reserved."
     # Format dates with Go's time formatting
@@ -334,4 +334,4 @@ paginate = 10
 
   [params.widgets.socials.service]
     github = "simizlab"
-    email = "access"
+    # email = "access"
