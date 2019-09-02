@@ -1,4 +1,4 @@
-baseurl = "https://simizlab.github.io/"
+baseurl = "https://web.tuat.ac.jp/~simizlab/"
 # relativeURLs = true
 # uglyURLs = true
 canonifyurls = true
@@ -30,42 +30,42 @@ paginate = 10
     [[languages.ja.menu.main]]
       identifier="home"
       name = "ホーム"
-      url  = "/"
+      url  = ""
       weight = 1
     [[languages.ja.menu.main]]
       identifier="topics"
       name = "トピックス"
-      url  = "/topics/"
+      url  = "topics"
       weight = 2
     [[languages.ja.menu.main]]
       identifier="research"
       name = "研究内容"
-      url  = "/research/"
+      url  = "research"
       weight = 3
     [[languages.ja.menu.main]]
       identifier="members"
       name = "メンバー"
-      url  = "/members/"
+      url  = "members"
       weight = 4
     [[languages.ja.menu.main]]
       identifier = "publications"
       name = "研究業績"
-      url  = "/publications/"
+      url  = "publications"
       weight = 5
     [[languages.ja.menu.main]]
       identifier="equipments"
       name = "研究設備"
-      url  = "/equipments/"
+      url  = "equipments"
       weight = 6
     [[languages.ja.menu.main]]
       identifier="access"
       name = "アクセス"
-      url  = "/access/"
+      url  = "access"
       weight = 7
     [[languages.ja.menu.main]]
       identifier="links"
       name = "リンク"
-      url  = "/links/"
+      url  = "links"
       weight = 8
 
     # Top bar configs
@@ -77,7 +77,7 @@ paginate = 10
     [[languages.ja.menu.topbar]]
       weight = 2
       name = "Email"
-      url = "/access"
+      url = "access"
       pre = "<i class='fa fa-2x fa-envelope'></i>"
 
   [languages.ja.params]
@@ -153,42 +153,42 @@ paginate = 10
       [[languages.en.menu.main]]
         identifier="home"
         name = "Home"
-        url  = "/"
+        url  = ""
         weight = 1
       [[languages.en.menu.main]]
         identifier="topics"
         name = "Topics"
-        url  = "/topics/"
+        url  = "topics"
         weight = 2
       [[languages.en.menu.main]]
         identifier="research"
         name = "Research"
-        url  = "/research/"
+        url  = "research"
         weight = 3
       [[languages.en.menu.main]]
         identifier = "members"
         name = "Members"
-        url  = "/members/"
+        url  = "members"
         weight = 4
       [[languages.en.menu.main]]
         identifier = "publications"
         name = "Publications"
-        url  = "/publications/"
+        url  = "publications"
         weight = 5
       [[languages.en.menu.main]]
         identifier="equipments"
         name = "Equipments"
-        url  = "/equipments/"
+        url  = "equipments"
         weight = 6
       [[languages.en.menu.main]]
         identifier="access"
         name = "Access"
-        url  = "/access/"
+        url  = "access"
         weight = 7
       [[languages.en.menu.main]]
         identifier="links"
         name = "LINK"
-        url  = "/links/"
+        url  = "links"
         weight = 8
 
       # Top bar configs
@@ -200,7 +200,7 @@ paginate = 10
       [[languages.en.menu.topbar]]
         weight = 2
         name = "Email"
-        url = "/access"
+        url = "access"
         pre = "<i class='fa fa-2x fa-envelope'></i>"
 
     [languages.en.params]
@@ -334,4 +334,4 @@ paginate = 10
 
   [params.widgets.socials.service]
     github = "simizlab"
-    email = "/access"
+    email = "access"
