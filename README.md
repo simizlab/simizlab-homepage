@@ -23,7 +23,7 @@
 まず，ソースコードをダウンロードします．
 
 ```bash
-git clone https://github.com/zEttOn86/simizlab-homepages.git
+git clone https://github.com/simizlab/simizlab-homepage.git
 git submodule init
 git submodule update
 ```
