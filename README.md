@@ -6,11 +6,12 @@
 
 ホームページを利用するにあたって必要なツールです．
 
-バージョンは気にしなくていいはずです．
+以下のバージョンにおいて，動作を確認しています．
 
 - [HUGO](https://github.com/gohugoio/hugo)
 
   - Version: Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z
+  - Hugo Static Site Generator v0.58.3-4AAC02D4 windows/amd64 BuildDate: 2019-09-19T15:29:19Z
 
 - [Git](https://git-scm.com/)
 
@@ -24,6 +25,7 @@
 
 ```bash
 git clone https://github.com/simizlab/simizlab-homepage.git
+cd simizlab-homepage
 git submodule init
 git submodule update
 ```
@@ -149,7 +151,7 @@ public
 
 ### トピックス
 
-記事を各場所です．
+記事を書く場所です．
 
 <img src="source/img/topics.PNG" width="80%">
 
