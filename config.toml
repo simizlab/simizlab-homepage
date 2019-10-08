@@ -270,6 +270,7 @@ paginate = 10
   name = "Atsushi Saito, Katsuki Tozawa and Masaya Tanaka"
 
 [params]
+    mainSections = ["topics"]
     viewMorePostLink = "topics"
     author = "Katsuki Tozawa & Atsushi Saito"
     copyright = "Copyright (c) 2019, Shimizu Lab., Tokyo University of Agriculture and Technology, All rights reserved."
