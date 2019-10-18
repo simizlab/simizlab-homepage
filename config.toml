@@ -99,7 +99,7 @@ paginate = 10
         text = """<p class="hidden-sm hidden-xs">東京農工大学　清水昭伸研究室</p>
                   <p class="hidden-md hidden-lg">東京農工大学<br>清水昭伸研究室</p>
                """
-    [languages.ja.params.for_applicants]
+    [languages.ja.params.to_applicants]
       enable = true
       title = "卒業研究配属や大学院入学の希望者へ"
       subtitle = """2019年度は，東京大学，京都大学，名古屋工業大学，大阪市立大学，
@@ -222,7 +222,7 @@ paginate = 10
         enable = true
         text = """<p>Shimizu Laboratory</p>
           """
-    [languages.en.params.for_applicants]
+    [languages.en.params.to_applicants]
       enable = true
       title = "To Applicants"
       subtitle = """Medical image analysis laboratory has collaborated

@@ -1,22 +1,22 @@
-{{ if isset .Site.Params "for_applicants" }}
-{{ if .Site.Params.for_applicants.enable }}
+{{ if isset .Site.Params "to_applicants" }}
+{{ if .Site.Params.to_applicants.enable }}
 <section class="bar background-white no-mb">
     <div class="container">
         <div class="col-md-12">
                 <div class="heading text-center">
-                    <h2>{{ .Site.Params.for_applicants.msg_title }}</h2>
+                    <h2>{{ .Site.Params.to_applicants.msg_title }}</h2>
                 </div>
 
                 <p class="lead">
-                    {{ .Site.Params.for_applicants.msg_subtitle | markdownify }}
+                    {{ .Site.Params.to_applicants.msg_subtitle | markdownify }}
                 </p>
 
                 <div class="heading text-center">
-                    <h2>{{ .Site.Params.for_applicants.title }}</h2>
+                    <h2>{{ .Site.Params.to_applicants.title }}</h2>
                 </div>
 
                 <p class="lead">
-                    {{ .Site.Params.for_applicants.subtitle | markdownify }}
+                    {{ .Site.Params.to_applicants.subtitle | markdownify }}
                 </p>
         </div>
     </div>
