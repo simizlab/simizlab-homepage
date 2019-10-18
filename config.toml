@@ -307,6 +307,9 @@ paginate = 10
     email = "fvzvm@pp.ghng.np.wc"
     contact_form_ajax = false
 
+[taxonomies]
+    tag = "tags"
+
 [Permalinks]
     blog = "/topics/:year/:month/:day/:filename/"
 
