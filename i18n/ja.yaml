@@ -80,3 +80,6 @@
   # https://github.com/Vimux/Mainroad/blob/master/i18n/en.yaml#L56
 - id: social_title
   translation: "Social"
+
+- id: readOtherPosts
+  translation: "他の記事を読む"
