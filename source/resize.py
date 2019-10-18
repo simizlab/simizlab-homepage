@@ -53,6 +53,8 @@ def main():
     #inputディレクトリの画像を読み込み，リサイズ，outputディレクトリに保存
     input_dir = args.input_dir
     output_dir = args.output_dir
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
     delete_files(output_dir) #outputに入っている全ファイルを削除
     file_names = os.listdir(input_dir)
     for file_name in file_names:
