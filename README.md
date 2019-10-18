@@ -146,7 +146,7 @@ public
 
 <img src="source/img/for_applicants.PNG" width="80%">
 
-`config.toml` における `for_applicants` のところを英語版，日本語版それぞれ編集することで設定できます．
+`config.toml` における `to_applicants` のところを英語版，日本語版それぞれ編集することで設定できます．
 
 
 ### トピックス
