@@ -117,8 +117,8 @@ public
 [Universal](https://themes.gohugo.io/hugo-universal-theme/)でも記載されていますが，いくつか紹介します．
 
 - [Carousel](#Carousel)
-- [Recent posts](#Recent_posts)
-- [For applicants](#For_applicants)
+- [Recent posts](#Recent-posts)
+- [To applicants](#To-applicants)
 - [トピックス](#トピックス)
 
 
@@ -131,7 +131,7 @@ public
 `data/carousel` 以下を編集することによって変更することができます．
 
 
-### Recent_posts
+### Recent posts
 
 トピックで書いた最新の記事を表示します．
 
@@ -140,7 +140,7 @@ public
 `content/topics` に記事を入れていけば変更されます．
 
 
-### For_applicants
+### To applicants
 
 熱い思いを書くところとして用意しました．
 
