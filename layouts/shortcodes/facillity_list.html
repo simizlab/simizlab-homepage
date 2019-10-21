@@ -1,42 +1,42 @@
-<div
-    class="facility__list">
+<div class="facility__list">
+    <ul class="owl-carousel testimonials same-height-row">
     {{ with .Get "src" }}
         {{ range $i, $r := getCSV "," . }}
-            <div
-                class="card__layout__outer">
-
-                <div
-                    class="card__layout__inner">
-                    <h4>
-                        {{index $r 1 }}
-                    </h4>
-                    <img
-                        src="{{index $r 0 }}"
-                        alt="">
-                    <table class="card__layout__inner">
-                      <tr>
-                        <th>CPU</th>
-                        <td>{{index $r 2 }}</td>
-                      </tr>
-                      <tr>
-                        <th>GPU</th>
-                        <td>{{index $r 3 }}</td>
-                      </tr>
-                      <tr>
-                        <th>RAM</th>
-                        <td>{{index $r 4 }}</td>
-                      </tr>
-                      <tr>
-                        <th>ROM</th>
-                        <td>{{index $r 5 }}</td>
-                      </tr>
-                      <!-- <tr>
-                        <th>Comment</th>
-                        <td>{{index $r 6 }}</td>
-                      </tr> -->
-                    </table>
+            <li class="item">
+              <div class="testimonial same-height-always">
+                <div class="card-text">
+                  <h4>{{ index $r 1  | markdownify }}</h4>
                 </div>
-            </div>
+                <div class="card-picture">
+                  <img src="{{index $r 0 }}" alt="">
+                </div>
+                <div class="card-content">
+                  <table>
+                    <tr>
+                      <th>CPU</th>
+                      <td>{{index $r 2 }}</td>
+                    </tr>
+                    <tr>
+                      <th>GPU</th>
+                      <td>{{index $r 3 }}</td>
+                    </tr>
+                    <tr>
+                      <th>RAM</th>
+                      <td>{{index $r 4 }}</td>
+                    </tr>
+                    <tr>
+                      <th>ROM</th>
+                      <td>{{index $r 5 }}</td>
+                    </tr>
+                    <!-- <tr>
+                      <th>Comment</th>
+                      <td>{{index $r 6 }}</td>
+                    </tr> -->
+                  </table>
+                </div>
+              </div>
+            </li>
         {{ end }}
     {{ end }}
+  </ul>
 </div>

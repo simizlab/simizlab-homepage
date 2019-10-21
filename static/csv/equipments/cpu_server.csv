@@ -1,7 +1,7 @@
-/img/equipments/dummy.png,SOLA,Xeon E7-4890 v2 x2,-,3TB,110GB,SOLAだけに真っ青?
-/img/equipments/dummy.png,MOON,Xeon E7-4830 v3 x2,-,1024GB,110GB,???
-/img/equipments/dummy.png,HOGE,Xeon E5-2690 v2 x2,-,512GB,SSD148GB,???
-/img/equipments/dummy.png,XERO,Xeon E5-2687W 0,-,512GB,1TB,???
-/img/equipments/dummy.png,ATOM1,AMD Opteron(tm) Processor 6378 x2,-,128GB,HDD750GB,???
-/img/equipments/dummy.png,ATOM2,AMD Opteron(tm) Processor 6378 x2,-,128GB,SSD480GB,???
-/img/equipments/dummy.png,WILLIAM,Xeon E5-2687W v2,GeForce GTX 650,64GB,SSD1000GB,???
+,SOLA,Xeon E7-4890 v2 x2,-,3TB,110GB,SOLAだけに真っ青?
+,MOON,Xeon E7-4830 v3 x2,-,1024GB,110GB,???
+,HOGE,Xeon E5-2690 v2 x2,-,512GB,SSD148GB,???
+,XERO,Xeon E5-2687W 0,-,512GB,1TB,???
+,ATOM1,AMD Opteron(tm) Processor 6378 x2,-,128GB,HDD750GB,???
+,ATOM2,AMD Opteron(tm) Processor 6378 x2,-,128GB,SSD480GB,???
+,WILLIAM,Xeon E5-2687W v2,GeForce GTX 650,64GB,SSD1000GB,???

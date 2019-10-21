@@ -266,6 +266,78 @@ table.card__layout__inner td{
 }
 /* Miyabi na code End */
 /* *************************************************** */
+/* Tozawa na code */
+.testimonials .item .testimonial .card-text {
+  /* margin-bottom: 5px; */
+  /* text-align:center; */
+}
+.testimonials .item .testimonial .card-text h4{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  display: inline-block;
+}
+.testimonials .item .testimonial .card-picture {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.testimonials .item .testimonial .card-picture img {
+  float: left;
+  width: 100%;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.testimonials .item .testimonial .card-content {
+  float: left;
+  text-align: center;
+  margin-top:10px;
+  margin-left: 10px;
+  width: 100%;
+}
+.testimonials .item .testimonial .card-content h4 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  display: inline-block;
+}
+.testimonials .item .testimonial .card-content table {
+  margin-top:10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.testimonials .item .testimonial .card-content tr {
+  border-bottom: solid 2px white;
+}
+.testimonials .item .testimonial .card-content tr:last-child {
+  border-bottom: none;
+}
+.testimonials .item .testimonial .card-content th {
+  position: relative;
+  text-align: left;
+  width: 30%;
+  background-color: #52c2d0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.testimonials .item .testimonial .card-content td{
+  text-align: left;
+  width: 70%;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+}
+
+/* Tozawa na code End*/
+/* *************************************************** */
+
 #blog-listing-medium .post .row{
   display: block;
   min-height: 180px;
