@@ -7,11 +7,11 @@ id = "publications"
 
 > ## 業績リスト
 
-- <a href="/pdf/Books & Reviewed journal papers.pdf" target="_ blank" rel="noopener noreferrer">著書及び原著論文（査読あり）</a>
-- <a href="/pdf/Reviewed proceedings of international conference.pdf" target="_ blank" rel="noopener noreferrer">国際会議論文（査読あり）</a>
-- <a href="/pdf/Invited talks_tutorial_symposium.pdf" target="_ blank" rel="noopener noreferrer">特別講演，チュートリアル，シンポジウムなど</a>
-- <a href="/pdf/Awards & Patents.pdf" target="_ blank" rel="noopener noreferrer">論文賞及び特許など</a>
-- <a href="/pdf/Tutorial papers (Japanese only).pdf" target="_ blank" rel="noopener noreferrer">総説・解説</a>
+- <a href="/pdf/著書及び原著論文（査読あり）.pdf" target="_ blank" rel="noopener noreferrer">著書及び原著論文（査読あり）</a>
+- <a href="/pdf/国際会議論文（査読あり）.pdf" target="_ blank" rel="noopener noreferrer">国際会議論文（査読あり）</a>
+- <a href="/pdf/特別講演，チュートリアル，シンポジウムなど.pdf" target="_ blank" rel="noopener noreferrer">特別講演，チュートリアル，シンポジウムなど</a>
+- <a href="/pdf/論文賞及び特許など.pdf" target="_ blank" rel="noopener noreferrer">論文賞及び特許など</a>
+- <a href="/pdf/総説・解説.pdf" target="_ blank" rel="noopener noreferrer">総説・解説</a>
 - <a href="/pdf/Scientific research funds.pdf" target="_ blank" rel="noopener noreferrer">研究資金</a>
 - <a href="/pdf/Academic society activities_etc.pdf" target="_ blank" rel="noopener noreferrer">学会活動等</a>
 
