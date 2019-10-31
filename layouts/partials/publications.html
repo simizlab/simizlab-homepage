@@ -51,22 +51,12 @@
             {{ $pages := index $r 5 }}
             {{ $year := index $r 6 }}
             {{ $doi := index $r 7 }}
+            {{ $url := index $r 8 }}
             <span class="picture-item__author">{{ $author }}</span><br>
             <span class="picture-item__title">{{ $title }}</span><br>
-            <em>{{ $journal }}</em>,
-            {{ if $number }}
-              <strong>{{ $volume }}</strong> <span>({{ $number }})</span>,
-            {{ else }}
-              <strong>{{ $volume }}</strong>,
-            {{ end }}
-            <span>
-            {{ $pages }},
-            </span>
-            <span>
-              {{ $year }}
-            </span>
-            <br>
-            <a href="http://dx.doi.org/{{ $doi }}" target="_blank" rel="noopener noreferrer" class="download">{{ $doi }}</a>
+            <em>{{ $journal }}</em>{{ if $volume }}<strong> {{ $volume }}</strong>{{ end }}{{ if $number }}<span>({{ $number }})</span>{{ end }}{{ if $pages }}<span>, {{ $pages }}</span>{{ end }}{{ if $year }}<span>, ({{ dateFormat "2006" $year }})</span>{{ end }}
+            {{ if $doi }}<br>doi:<a href="https://dx.doi.org/{{ $doi }}" target="_blank" rel="noopener noreferrer">{{ $doi }}</a>{{ end }}
+            {{ if $url }}<br><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $url }}</a>{{ end }}
           </li>
           {{ end }}
           {{ end }}
