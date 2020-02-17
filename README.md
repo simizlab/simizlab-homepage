@@ -68,8 +68,6 @@ hugo --minify
 
 **このとき， `config.toml` の `baseurl` を書き換えることを忘れないでください**
 
-デフォルトは， `https://simizlab.github.io/` にしてあります．
-
 sample
 ```
 public
