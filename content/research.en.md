@@ -5,17 +5,17 @@ description = "Research"
 keywords = ["Research"]
 +++
 
-> ## Mission
+## Mission
 
 Goal of the medical image analysis laboratory is researches on medical image analysis based on the state of the art technologies of pattern recognition, machine learning, artificial intelligence and big data analysis, and development of computer aided-diagnosis systems using the research results.
 
-> ## Background
+## Background
 
 Advances in image capture devices have made it possible to image the inside of the human body in 3D with a resolution of 1mm or less. As a result, it became possible to detect extremely early cancers. However, examining the image with only the naked eye from hundreds or more than 1,000 is a great burden on doctors. Therefore, the development of an image processing program that supports doctors by automatically analyzing images using computers and recognizing abnormalities in organs and their interiors is required. Recently, a new academic field called computational anatomy has been born that mathematically and statistically describes changes in the shape and concentration of organs in the human body. The results in this field have been confirmed to show better performance than before, as it is used in processing that automatically recognizes organs and diseases from images. In the following, after showing the results of research related to computational anatomy, we will introduce examples of research on image processing such as organ recognition and tumor recognition using the results. Recently, attention has been focused on image analysis not only for the fetus and the living body but also for the human body after death, and we are working on this, but we will also introduce examples of these studies.
 <!-- ![slide1](/img/research/slide1_E.png) -->
 <div align="center"><img src="/img/research/slide1_E.png"  width=50% title="slide1"></div>
 
-> ## Research
+## Research
 
 ### 1. Fundamental technologies
 

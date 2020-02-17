@@ -5,7 +5,7 @@ description = "リンク"
 keywords = ["リンク"]
 +++
 
-> ## 関連プロジェクト
+## 関連プロジェクト
 
 - [多元計算解剖学](http://wiki.tagen-compana.org/mediawiki/index.php/Main_Page)
 
@@ -15,7 +15,7 @@ keywords = ["リンク"]
 
 <!-- - [共同研究に関するお知らせ（2019年8月7日更新）](/pdf/kyodo_kenkyu_190807.pdf) -->
 
-> ## 所属機関
+## 所属機関
 
 - [東京農工大学](http://www.tuat.ac.jp/)
 
@@ -24,7 +24,7 @@ keywords = ["リンク"]
 - [東京農工大学 工学部 知能情報システム工学科](http://www.eecs.tuat.ac.jp/)
 
 
-> ## 協力機関
+## 協力機関
 
 - [東大病院放射線科 画像情報処理・解析研究室](http://www.ut-radiology.umin.jp/ical/)
 
@@ -54,7 +54,7 @@ keywords = ["リンク"]
 
 - [九州大学 先端医療イノベーションセンター](http://camiku.kyushu-u.ac.jp/)
 
-> ## 文献検索エンジン，オンラインジャーナル
+## 文献検索エンジン，オンラインジャーナル
 
 - [Citeseer](https://citeseerx.ist.psu.edu/index;jsessionid=9C768C44EDD243599490D70F5396EB73)
 
@@ -74,7 +74,7 @@ keywords = ["リンク"]
 
 - [Radiology](https://pubs.rsna.org/journal/radiology)
 
-> ## 学会
+## 学会
 
 - [電子情報通信学会](https://www.ieice.org/jpn/index.html)
 
@@ -98,11 +98,11 @@ keywords = ["リンク"]
 
 - [CARS](https://www.cars-int.org/)
 
-> ## 画像ビューワ
+## 画像ビューワ
 
 - [3D Slicer](https://www.slicer.org/)
 
-> ## その他
+## その他
 
 - [日本学術振興会科学研究補助金](https://www.jsps.go.jp/j-grantsinaid/index.html)
 

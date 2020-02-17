@@ -11,14 +11,14 @@ Students can use desktop computers provided from our lab as well as server machi
 </span>
 
 
-> ## Personal Computer  
+## Personal Computer  
 
 The students in our laboratory are provided with powerful computers. The supplied computer can be used freely by one student and can perform various experiments at any time.  
 Here are some of the personal computers.  
 
 {{<facillity_list src="/static/csv/equipments/personal.en.csv">}}  
 
-> ## Server
+## Server
 
 In order to satisfy the greed that even personal computers seem to be unsatisfactory, we have a computer server. If you use a server, you can experiment more powerful than a personal computer.  
 Here we introduce all the servers owned by our laboratory.  
@@ -35,7 +35,7 @@ Here we introduce all the servers owned by our laboratory.
 
 {{<facillity_list src="/static/csv/equipments/file_server.csv">}}  
 
-> ## Software environment
+## Software environment
 
 OS and software mainly used in our lab can be found below
 

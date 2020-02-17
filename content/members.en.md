@@ -5,14 +5,14 @@ description = "Members"
 keywords = ["Members"]
 +++
 
-> ## Staff
+### Staff
 
 {{<csv src="/static/csv/members/staff.en.csv">}}
 
-> ## Collaborators
+### Collaborators
 
 {{<csv src="/static/csv/members/collaborators.en.csv">}}
 
-> ## Students
+### Students
 
 {{<csv src="/static/csv/members/students.en.csv">}}

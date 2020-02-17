@@ -5,7 +5,7 @@ keywords = ["研究業績", "業績"]
 id = "publications"
 +++
 
-> ## 業績リスト
+## 業績リスト
 
 - {{<links src="/pdf/著書及び原著論文（査読あり）.pdf" title="著書及び原著論文（査読あり）">}}
 - {{<links src="/pdf/国際会議論文（査読あり）.pdf" title="国際会議論文（査読あり）">}}
@@ -15,7 +15,7 @@ id = "publications"
 - {{<links src="/pdf/Scientific research funds.pdf" title="研究資金">}}
 - {{<links src="/pdf/Academic society activities_etc.pdf" title="学会活動等">}}
 
-> ## 公的活動等
+## 公的活動等
 
 - 次世代医療機器・再生医療機器等製品評価指標検討会／医療機器開発ガイドライン評価検討委員会合同検討委員会　委員（国立研究開発法人 産業技術総合研究所）
 - 地域イノベーション・基盤技術高度化推進委託事業に関する評価委員（関東経済産業局）

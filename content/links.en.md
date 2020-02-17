@@ -5,13 +5,13 @@ description = "Links"
 keywords = ["Link"]
 +++
 
-> ## Project
+## Project
 
 - [multi-disciplinary computational anatomy project](http://wiki.tagen-compana.org/mediawiki/index.php/Main_Page)
 
 - [Brain/minds](https://brainminds.jp/en/)
 
-> ## Research Institute
+## Research Institute
 
 - [Tokyo University of Agriculture and Technology](https://www.tuat.ac.jp/en/)
 
