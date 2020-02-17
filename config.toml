@@ -15,6 +15,11 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [languages]
 ############################################
 # Japanese
