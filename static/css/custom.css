@@ -237,3 +237,26 @@ ol.pub__list li:hover{
   display: block;
   min-height: 180px;
 }
+
+.contents-body h2{
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #4fbfa8;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+.contents-body h3 {
+  border-bottom: solid 3px rgba(118, 185, 170, 0.5);
+  position: relative;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.contents-body h3:after{
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #4fbfa8;
+  bottom: -3px;
+  width: 20%;
+}
