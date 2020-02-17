@@ -16,7 +16,7 @@ keywords = ["研究設備","gpu","cpu"]
 本研究室の学生には強力なコンピュータが支給されます．支給されたコンピュータは学生が1人で自由に使用することができ，いつでも様々な実験を行うことができます．  
 ここでは，個人用コンピュータの一部を紹介します．
 
-{{<facillity_list src="/content/source/csv/equipments/personal.ja.csv">}}  
+{{<facillity_list src="/static/csv/equipments/personal.ja.csv">}}  
 
 > ## サーバー
 
@@ -25,15 +25,15 @@ keywords = ["研究設備","gpu","cpu"]
 
 ### GPUサーバー
 
-{{<facillity_list src="/content/source/csv/equipments/gpu_server.csv">}}  
+{{<facillity_list src="/static/csv/equipments/gpu_server.csv">}}  
 
 ### CPUサーバー
 
-{{<facillity_list src="/content/source/csv/equipments/cpu_server.csv">}}  
+{{<facillity_list src="/static/csv/equipments/cpu_server.csv">}}  
 
 ### ファイルサーバー
 
-{{<facillity_list src="/content/source/csv/equipments/file_server.csv">}}  
+{{<facillity_list src="/static/csv/equipments/file_server.csv">}}  
 
 
 > ## 開発環境
@@ -44,8 +44,8 @@ keywords = ["研究設備","gpu","cpu"]
 
 - 開発言語: Visual C++, Matlab, Python等
 
-- 利用ライブラリ: Tensorflow, Chainer, Eigen, MIST, nalib, saitool
+- 利用ライブラリ: Tensorflow, Pytorch, Chainer, Eigen, MIST, nalib, saitool
 
 - その他: Docker
 
-<div align="center">{{< figure src="/img/equipments/development.png" width="100%">}}</div>
+<div align="center">{{< figure src="/img/equipments/development.png" width="80%" height="70%">}}</div>
