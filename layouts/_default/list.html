@@ -38,7 +38,9 @@
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    {{ if isset .Params "title" }}
+                                        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    {{end}}
                                     <div class="clearfix">
                                         <p class="author-category">
                                           {{ if isset .Params "author" }}
