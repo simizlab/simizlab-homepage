@@ -7,14 +7,13 @@ id = "publications"
 
 > ## 業績リスト
 
-- <a href="/source/pdf/著書及び原著論文（査読あり）.pdf" target="_ blank" rel="noopener noreferrer">著書及び原著論文（査読あり）</a>
-- <a href="/source/pdf/国際会議論文（査読あり）.pdf" target="_ blank" rel="noopener noreferrer">国際会議論文（査読あり）</a>
-- <a href="/source/pdf/特別講演，チュートリアル，シンポジウムなど.pdf" target="_ blank" rel="noopener noreferrer">特別講演，チュートリアル，シンポジウムなど</a>
-- <a href="/source/pdf/論文賞及び特許など.pdf" target="_ blank" rel="noopener noreferrer">論文賞及び特許など</a>
-- <a href="/source/pdf/総説・解説.pdf" target="_ blank" rel="noopener noreferrer">総説・解説</a>
-- <a href="/source/pdf/Scientific research funds.pdf" target="_ blank" rel="noopener noreferrer">研究資金</a>
-- <a href="/source/pdf/Academic society activities_etc.pdf" target="_ blank" rel="noopener noreferrer">学会活動等</a>
-
+- {{<links src="/pdf/著書及び原著論文（査読あり）.pdf" title="著書及び原著論文（査読あり）">}}
+- {{<links src="/pdf/国際会議論文（査読あり）.pdf" title="国際会議論文（査読あり）">}}
+- {{<links src="/pdf/特別講演，チュートリアル，シンポジウムなど.pdf" title="特別講演，チュートリアル，シンポジウムなど">}}
+- {{<links src="/pdf/論文賞及び特許など.pdf" title="論文賞及び特許など">}}
+- {{<links src="/pdf/総説・解説.pdf" title="総説・解説">}}
+- {{<links src="/pdf/Scientific research funds.pdf" title="研究資金">}}
+- {{<links src="/pdf/Academic society activities_etc.pdf" title="学会活動等">}}
 
 > ## 公的活動等
 

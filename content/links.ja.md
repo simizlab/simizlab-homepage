@@ -11,7 +11,7 @@ keywords = ["リンク"]
 
 - [革新脳](http://brainminds.jp/)
 
-- <a href="/pdf/kyodo_kenkyu_190807.pdf" target="_ blank" rel="noopener noreferrer">共同研究に関するお知らせ（2019年8月7日更新）</a>
+- {{<links src="/pdf/kyodo_kenkyu_190807.pdf" title="共同研究に関するお知らせ（2019年8月7日更新）">}}
 
 <!-- - [共同研究に関するお知らせ（2019年8月7日更新）](/pdf/kyodo_kenkyu_190807.pdf) -->
 

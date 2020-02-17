@@ -7,12 +7,12 @@ keywords = ["Members"]
 
 > ## Staff
 
-{{<csv src="/content/source/csv/members/staff.en.csv">}}
+{{<csv src="/static/csv/members/staff.en.csv">}}
 
 > ## Collaborators
 
-{{<csv src="/content/source/csv/members/collaborators.en.csv">}}
+{{<csv src="/static/csv/members/collaborators.en.csv">}}
 
 > ## Students
 
-{{<csv src="/content/source/csv/members/students.en.csv">}}
+{{<csv src="/static/csv/members/students.en.csv">}}
