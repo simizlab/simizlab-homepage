@@ -10,8 +10,7 @@
 
 - [HUGO](https://github.com/gohugoio/hugo)
 
-  - Version: Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z
-  - Hugo Static Site Generator v0.58.3-4AAC02D4 windows/amd64 BuildDate: 2019-09-19T15:29:19Z
+  - Hugo Static Site Generator v0.64.1-C327E75D windows/amd64 BuildDate: 2020-02-09T20:47:34Z
 
 - [Git](https://git-scm.com/)
 
@@ -60,7 +59,7 @@ hugo server --buildDrafts --watch --bind=0.0.0.0 --baseUrl=192.168.1.XX
 htmlの生成を行うときは，以下のコマンドを打ちます．
 
 ```bash
-hugo
+hugo --minify
 ```
 
 実行すると，カレントディレクトリ以下に `public` というディレクトリが生成されます．
@@ -81,40 +80,10 @@ public
 ...
 ```
 
-### メールアドレスについて
-
-メールの送受信は， [Formspree](https://formspree.io/) を用いています．
-
-設定には2つの手順が必要です．
-
-#### `config.toml` の編集
-
-`config.toml` の **312行目** で設定を行います．
-
-スクレイビング対策のために，[rot13.com](https://rot13.com/) でメールアドレスを暗号化してから，入力してください．
-
-例えば， `test@email.com` の場合は，以下のようになります．
-
-`test@email.com` ➡(rot13.comによる変換)➡ `grfg@rznvy.pbz` が入力されています．
-
-#### Formspreeの許可設定
-
-英語版と日本語版の全部で2回許可する必要があります．
-
-まず， `お問い合わせフォーム` からすべてを入力し，送信を行います．
-
-<img src="source/img/contact_form.PNG" width="50%">
-
-そうすると設定したメールアドレスにメールが届きます．
-
-あとは，指示に従って設定を行ってください．
-
-この作業を日本語と英語のそれぞれのお問い合わせフォームから行います．
-
-
 ## 機能
 
 [Universal](https://themes.gohugo.io/hugo-universal-theme/)でも記載されていますが，いくつか紹介します．
+他にも機能は存在していますが，オフにしています．
 
 - [Carousel](#Carousel)
 - [Recent posts](#Recent-posts)
@@ -124,7 +93,7 @@ public
 
 ### Carousel
 
-トップページのやつです．
+トップページのバーナーを表示します．
 
 <img src="source/img/carousel.PNG" width="80%">
 
@@ -142,16 +111,16 @@ public
 
 ### To applicants
 
-熱い思いを書くところとして用意しました．
+清水研希望者へのメッセージを表示します．
 
 <img src="source/img/for_applicants.PNG" width="80%">
 
-`config.toml` における `to_applicants` のところを英語版，日本語版それぞれ編集することで設定できます．
+`config.toml` における `to_applicants` のところを英語版，日本語版それぞれを編集することで設定できます．
 
 
 ### トピックス
 
-記事を書く場所です．
+投稿記事を表示します．
 
 <img src="source/img/topics.PNG" width="80%">
 
@@ -160,7 +129,7 @@ public
 `hogehoge.en.md` という拡張子の場合，英語の記事を示しています．
 その記事に対応する日本語の記事のマークダウンは， `hogehoge.md` or `hogehoge.ja.md` にすることで対応関係を作ることができます．
 
-マークダウンの一番上には以下のことを書いてください．
+マークダウンの一番上（front matter）には以下のことを書いてください．
 
 ```md
 ---
