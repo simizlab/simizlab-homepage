@@ -16,7 +16,7 @@ Students can use desktop computers provided from our lab as well as server machi
 The students in our laboratory are provided with powerful computers. The supplied computer can be used freely by one student and can perform various experiments at any time.  
 Here are some of the personal computers.  
 
-{{<facillity_list src="/static/csv/equipments/personal.en.csv">}}  
+{{<facillity_list src="/content/source/csv/equipments/personal.en.csv">}}  
 
 ## Server
 
@@ -25,15 +25,15 @@ Here we introduce all the servers owned by our laboratory.
 
 ### GPU Server
 
-{{<facillity_list src="/static/csv/equipments/gpu_server.csv">}}  
+{{<facillity_list src="/content/source/csv/equipments/gpu_server.csv">}}  
 
 ### CPU Server
 
-{{<facillity_list src="/static/csv/equipments/cpu_server.csv">}}  
+{{<facillity_list src="/content/source/csv/equipments/cpu_server.csv">}}  
 
 ### File Server
 
-{{<facillity_list src="/static/csv/equipments/file_server.csv">}}  
+{{<facillity_list src="/content/source/csv/equipments/file_server.csv">}}  
 
 ## Software environment
 

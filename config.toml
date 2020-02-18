@@ -14,7 +14,7 @@ googleAnalytics = ""
 
 # Define the number of posts per page
 paginate = 10
-ignoreFiles = ["source/csv/.*", "source/pdf/.*"]
+ignoreFiles = ["source/csv/.*"]
 
 [markup]
   [markup.goldmark]
