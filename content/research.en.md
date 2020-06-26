@@ -67,13 +67,14 @@ Thanks to the medical technology progress in recent days, our life has been beco
 <br clear="all">
 
 
-<!--
+
 ### 5. Organ Segmentation
 <img src="/img/research/slide_6.png" width=50% title="slide6" hspace=20 align="left">
 An infant image has large variations in organ's density, shape, location and size depending on an individual or its age and due to a low-dose imaging, it would be a low resolution and low SN (signal-to-noise) ratio image.Dealing with these problems, we need the original image  diagnosis aided system instead of what is targeted on adults. Many  segmentation methods based on deep learning have been proposied so far and high accuracy outcomes have been reported, while there is an issue that there are predicted results of unnatural shapes.In this research, we are going to aim at improving liver segmentation performance for infant CT images by applaying the time-space statistical shape model for "3D-Unet" adapted to 3 dimention CT images.
 
 <br clear="all">
 
+<!--
 ### 6. Skin Disease Image Classification
 <img src="/img/research/slide_7.png" width=50% title="slide6" hspace=20 align="left">
 Skin is tissue covering body surface and the biggest organ in a human body, which is shared about 16% in adult weight. Skin directly contacts out of the body and has a plenty of essential fanctions in order that the human survives such as maintaining moisture, adjusting body temperature, protecting from stimulation and playing a role as the sensory organ. However, skin located in body surface is also the organ that keeps on exposing a lot of outer stimulations such as moisture evapolation, invation of foreign matters and ultraviolet irradiation. These stimulations has possiblity to develop various kinds of disease. A skin cancer, in particular, compared to a cancer developed in other organ, is slow progress and easy to process by early detection and treatment, and makes it possible to reduce burden on patients and doctors. Therefore, we demand to conduct prompt doctor's diagnosis and treatment against skin foreign matters. In this research, we are going to propose methods to improve identification performance using several images targeted on experimental samples consisting of valious kinds of images such as shooting device, angle, scale and background.
