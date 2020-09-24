@@ -107,6 +107,9 @@ ignoreFiles = ["source/csv/.*"]
                """
     [languages.ja.params.to_applicants]
       enable = true
+
+      url = "https://github.com/simizlab"
+
       title = "卒業研究配属や大学院入学の希望者へ"
       subtitle = """2019年度は，東京大学，京都大学，名古屋工業大学，大阪市立大学，
                     九州大学などの10を超える大学，理化学研究所など2つの公的機関，
@@ -116,6 +119,7 @@ ignoreFiles = ["source/csv/.*"]
                     研究では，プログラミング，線形代数，解析，確率統計，信号処理などを利用します．
                     医用画像解析や学外の施設との医工連携に興味がある人は、是非研究室見学に来てください．
                     """
+                    
       msg_title = "学生へのメッセージ"
       msg_subtitle = """日々の研究の積み重ねが大きな成果を生みます．
                     弛まず，怠らず，真摯に研究に取り組むことで，

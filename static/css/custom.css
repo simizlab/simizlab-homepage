@@ -260,3 +260,8 @@ ol.pub__list li:hover{
   bottom: -3px;
   width: 20%;
 }
+
+
+.btn-lab-info {
+  color: red;
+}
